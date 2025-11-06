@@ -142,7 +142,7 @@ all_degs <- sort(unique(deseq_df$symbol))
 
 length(all_degs) # 102
 
-check <- readLines("2025.10.28.in_vitro_degs.dp100_padj01_logROR01.txt")
+check <- readLines("output/2025.10.28.in_vitro_degs.dp100_padj01_logROR01.txt")
 length(intersect(check, all_degs))
 setdiff(check, all_degs)
 setdiff(all_degs, check)
