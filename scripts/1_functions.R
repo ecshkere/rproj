@@ -195,8 +195,8 @@ if (FALSE) {
                              mart = snp_mart))
     print(i)
   }
-  # saveRDS(snps_cons, "biomart.RDS")
-  # snps_cons <- readRDS("biomart.RDS")
+  # saveRDS(snps_cons, "output/biomart.RDS")
+  # snps_cons <- readRDS("output/biomart.RDS")
   
   snps_missense <- snps_cons %>% filter(consequence_type_tv == "missense_variant")
   

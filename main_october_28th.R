@@ -185,7 +185,7 @@ missense_conf_hetero <- missense_ss_df %>%
 # writeLines(missense_conf, "output/2025.11.06.missenses_confirmed_in_vivo.p01logror01.txt")
 
 ########## annotating missense snps with uniprot
-uniprot_ids <- read_tsv("idmapping_2025_10_28.tsv") %>% 
+uniprot_ids <- read_tsv("output/idmapping_2025_10_28.tsv") %>% 
   filter(Reviewed == "reviewed") %>% 
   select(From, Entry)
 
