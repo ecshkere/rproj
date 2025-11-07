@@ -132,8 +132,8 @@ missense_tfs <- sort(unique(result_missenses$tf))
 length(missense_tfs) # 82
 length(intersect(missense_tfs, all_degs)) # 8
 
-# writeLines(all_degs, "output/2025.10.28.in_vitro_degs.dp100_padj01_logROR01.txt")
-# writeLines(missense_tfs, "output/2025.10.28.in_vitro_missenses.dp100_padj01_logROR01.txt")
+# writeLines(all_degs, "results/2025.10.28.in_vitro_degs.dp100_padj01_logROR01.txt")
+# writeLines(missense_tfs, "results/2025.10.28.in_vitro_missenses.dp100_padj01_logROR01.txt")
 
 ## filtering snps found among in vivo diabetics in promoters of TFs that were differentially expressed or carried missense variants in in vitro dataset
 if (!exists("IN_VIVO")) {
@@ -180,8 +180,8 @@ missense_conf_homo <- missense_ss_df %>%
 missense_conf_hetero <- missense_ss_df %>%
   filter(qual == "hetero") %>% pull(tf) %>% unique() %>% sort()
 
-# writeLines(degs_conf, "output/2025.10.28.degs_confirmed_in_vivo.p01logror01.txt")
-# writeLines(missense_conf, "output/2025.11.06.missenses_confirmed_in_vivo.p01logror01.txt")
+# writeLines(degs_conf, "results/2025.10.28.degs_confirmed_in_vivo.p01logror01.txt")
+# writeLines(missense_conf, "results/2025.11.06.missenses_confirmed_in_vivo.p01logror01.txt")
 
 ## annotating missense snps with uniprot
 uniprot_ids <- read_tsv("output/idmapping_2025_10_28.tsv") %>% 
@@ -200,7 +200,7 @@ uniprot <- read_tsv("output/2025.10.28.uniprot_output_in_vitro.tsv") %>%
 
 uniprot_with_domains <- uniprot %>% filter(!is.na(Domain)) %>% arrange(symbol)
 
-write_tsv(uniprot_with_domains %>% select(symbol, rsid, Domain), "output/missense_snps_uniprot_annotation.tsv")
+write_tsv(uniprot_with_domains %>% select(symbol, rsid, Domain), "results/2025.10.28.missense_snps_uniprot_annotation.tsv")
 
 uniprot_ordered <- uniprot_with_domains %>% filter(Domain != "REGION|Disordered")
 length(unique(uniprot_ordered$symbol)) 
@@ -237,12 +237,12 @@ ddase_genes_ss <- ddmaf_df_filt_ss %>%
 go_ddase <- go(ddase_genes)
 kegg_ddase <- kegg(ddase_genes)
 
-write_tsv(go_degs, "output/2025.10.28.GO_degs.tsv")
-write_tsv(kegg_degs, "output/2025.10.28.KEGG_degs.tsv")
-# write_tsv(go_missenses, "output/2025.10.28.GO_missenses.tsv")
-write_tsv(kegg_missenses, "output/2025.10.28.KEGG_missenses.tsv")
-write_tsv(go_ddase, "output/2025.10.28.GO_ddASE_genes.tsv")
-# write_tsv(kegg_ddase, "output/2025.10.28.KEGG_ddASE_genes.tsv")
+write_tsv(go_degs, "results/2025.10.28.GO_degs.tsv")
+write_tsv(kegg_degs, "results/2025.10.28.KEGG_degs.tsv")
+# write_tsv(go_missenses, "results/2025.10.28.GO_missenses.tsv")
+write_tsv(kegg_missenses, "results/2025.10.28.KEGG_missenses.tsv")
+write_tsv(go_ddase, "results/2025.10.28.GO_ddASE_genes.tsv")
+# write_tsv(kegg_ddase, "results/2025.10.28.KEGG_ddASE_genes.tsv")
 
 
 ########## SUPPLEMENTARY TABLE

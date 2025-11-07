@@ -57,7 +57,7 @@ find_missense_tfs <- function(patients, tfs, patients_tf) {
     mutate(allele1 = get(patient1), allele2 = get(patient2)) %>%
     filter(!is.na(allele1), !is.na(allele2)) %>%
     filter(allele1 != allele2) %>%
-    # filter(!(allele1 == "0/0" & allele2 == "1/1") & !(allele2 == "0/0" & allele1 == "1/1")) %>%
+    # filter((allele1 == "0/0" & allele2 == "1/1") | (allele2 == "0/0" & allele1 == "1/1")) %>%
     ungroup() %>%
     select(tf, rsid, chr, pos, ref, alt, patient1, allele1, patient2, allele2) %>%
     mutate(allele1 = translate_gt(allele1, ref, alt),

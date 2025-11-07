@@ -204,5 +204,5 @@ if (FALSE) {
     filter(symbol %in% tf_to_gene, !chr_name %in% c("X", "Y")) %>%
     select(-entrezid) %>% distinct() %>% rename(tf = symbol)
   
-  snps_missense %>% select(chr_name, chrom_start) %>% distinct() %>% write_tsv("output/2025.10.27.all_missense_positions.tsv", col_names = F)
+  snps_missense %>% select(chr_name, chrom_start) %>% distinct() %>% write_tsv("output/2025.10.27.all_missense_positions.tsv", col_names = F) # for missenses.pl
 }

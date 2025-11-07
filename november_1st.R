@@ -140,7 +140,7 @@ all_degs <- sort(unique(deseq_df$symbol))
 
 length(all_degs) # 102
 
-check <- readLines("output/2025.10.28.in_vitro_degs.dp100_padj01_logROR01.txt")
+check <- readLines("results/2025.10.28.in_vitro_degs.dp100_padj01_logROR01.txt")
 length(intersect(check, all_degs))
 setdiff(check, all_degs)
 setdiff(all_degs, check)
@@ -158,8 +158,8 @@ missense_tfs <- sort(unique(result_missenses$tf))
 length(missense_tfs)                      
 length(intersect(missense_tfs, all_degs))
 
-# writeLines(all_degs, "output/2025.10.31.in_vitro_degs.dp50_padj01_half_common_snps.txt")
-# writeLines(missense_tfs, "output/2025.10.31.in_vitro_missenses.dp50_padj01_half_common_snps.txt")
+# writeLines(all_degs, "results/2025.10.31.in_vitro_degs.dp50_padj01_half_common_snps.txt")
+# writeLines(missense_tfs, "results/2025.10.31.in_vitro_missenses.dp50_padj01_half_common_snps.txt")
 
 ## filtering snps found among in vivo diabetics in promoters of TFs that were differentially expressed or carried missense variants in in vitro dataset
 if (!exists("IN_VIVO")) {
@@ -222,5 +222,5 @@ missense_conf_homo <- missense_ss_df %>%
   pull(tf) %>% unique() %>% sort() %>%
   intersect(missense_conf)
 
-# writeLines(degs_conf, "output/2025.10.31.degs_confirmed_in_vivo.dp50_padj01_half_common_snps.txt")
-# writeLines(missense_conf, "output/2025.10.31.missenses_confirmed_in_vivo.dp50_padj01_half_common_snps.txt")
+# writeLines(degs_conf, "results/2025.10.31.degs_confirmed_in_vivo.dp50_padj01_half_common_snps.txt")
+# writeLines(missense_conf, "results/2025.10.31.missenses_confirmed_in_vivo.dp50_padj01_half_common_snps.txt")
