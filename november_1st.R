@@ -1,15 +1,13 @@
 # packages <- c("jsonlite", "tidyverse", "BiocManager")
 # install.packages(setdiff(packages, rownames(installed.packages())))
 # 
-# bioc <- c(
-#   "DESeq2", "org.Hs.eg.db", "biomaRt", "AnnotationDbi", "motifbreakR",
-#   "MotifDb", "clusterProfiler", "TxDb.Hsapiens.UCSC.hg38.knownGene",
-#   "BSgenome.Hsapiens.UCSC.hg38", "SNPlocs.Hsapiens.dbSNP155.GRCh38"
-# )
+# bioc <- c("DESeq2", "org.Hs.eg.db", "biomaRt", "AnnotationDbi", "motifbreakR",
+#           "MotifDb", "clusterProfiler", "TxDb.Hsapiens.UCSC.hg38.knownGene",
+#           "BSgenome.Hsapiens.UCSC.hg38", "SNPlocs.Hsapiens.dbSNP155.GRCh38")
 # 
 # for (pkg in bioc) {
 #   if (!requireNamespace(pkg, quietly = TRUE)) {
-#     BiocManager::install(pkg) # версии
+#     BiocManager::install(pkg)
 #   }
 # }
 
@@ -41,7 +39,7 @@ if (!exists("IN_VIVO")) {
 ## in vitro chip-seq snps
 joined_df <- lapply(patients, read_chipseq) %>% bind_rows() %>%
   mutate(variant = paste(chr, pos, ref, alt, sep = '_')) %>%
-  group_by(variant) %>% filter(n_distinct(patient) > 1) %>% ungroup() # filtering snps found in at least 2 patients
+  group_by(variant) %>% filter(n_distinct(patient) > 1) %>% ungroup() # filtering snps common for 2+ patients
 
 # filtering snps in promoters
 joined_df <- assign_genes(joined_df, "chr", "pos", promoters = TRUE)
@@ -76,7 +74,7 @@ for (pref in c("DP_maj_gene", "DP_min_gene")) {
 }
 res_df2 <- run_glm(swapped)
 
-# calculate p-value again and choose the higher one
+# calculate p-value again and choose the higher one (?)
 merged <- bind_rows(res_df1, res_df2) %>%
   arrange(desc(p_interaction)) %>%
   distinct(symbol, patients, .keep_all = TRUE) %>% 

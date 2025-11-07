@@ -1,15 +1,13 @@
 # packages <- c("jsonlite", "tidyverse", "BiocManager")
 # install.packages(setdiff(packages, rownames(installed.packages())))
 # 
-# bioc <- c(
-#   "DESeq2", "org.Hs.eg.db", "biomaRt", "AnnotationDbi", "motifbreakR",
-#   "MotifDb", "clusterProfiler", "TxDb.Hsapiens.UCSC.hg38.knownGene",
-#   "BSgenome.Hsapiens.UCSC.hg38", "SNPlocs.Hsapiens.dbSNP155.GRCh38"
-# )
+# bioc <- c("DESeq2", "org.Hs.eg.db", "biomaRt", "AnnotationDbi", "motifbreakR",
+#           "MotifDb", "clusterProfiler", "TxDb.Hsapiens.UCSC.hg38.knownGene",
+#           "BSgenome.Hsapiens.UCSC.hg38", "SNPlocs.Hsapiens.dbSNP155.GRCh38")
 # 
 # for (pkg in bioc) {
 #   if (!requireNamespace(pkg, quietly = TRUE)) {
-#     BiocManager::install(pkg) # версии
+#     BiocManager::install(pkg)
 #   }
 # }
 
@@ -38,10 +36,10 @@ if (!exists("IN_VIVO")) {
   coldata_path <- "counts/in_vivo_coldata.tsv"
 }
 
-## in vitro chip-seq snps
+## in vitro chip-seq 
 joined_df <- lapply(patients, read_chipseq) %>% bind_rows() %>%
   mutate(variant = paste(chr, pos, ref, alt, sep = '_')) %>%
-  group_by(variant) %>% filter(n_distinct(patient) > 1) %>% ungroup() # filtering snps found in at least 2 patients
+  group_by(variant) %>% filter(n_distinct(patient) > 1) %>% ungroup() # filtering snps common for 2+ patients
 
 # filtering snps in promoters
 joined_df <- assign_genes(joined_df, "chr", "pos", promoters = TRUE)
@@ -79,8 +77,8 @@ result_files <- list.files(mtfbrkr_dir, pattern = ".*\\.rds$")
 rsids_in_folder <- gsub("\\.rds", "", result_files)
 rsids_to_process <- setdiff(snps_for_mtfbrkr, rsids_in_folder)
 
-# writeLines(rsids_to_process, "snps_for_mtfbrkr_to_add.txt")
-## Rscript scripts/motifbreakr.R snps_for_mtfbrkr_to_add.txt motifbreakr/ 30
+# writeLines(rsids_to_process, "output/snps_for_mtfbrkr_to_add.txt")
+## Rscript scripts/motifbreakr.R output/snps_for_mtfbrkr_to_add.txt motifbreakr/ 30
 
 if (length(rsids_to_process)) {
   run_motifbreakr(rsids_to_process, mtfbrkr_dir, batch_size = 26) 
@@ -206,7 +204,7 @@ uniprot_ordered <- uniprot_with_domains %>% filter(Domain != "REGION|Disordered"
 length(unique(uniprot_ordered$symbol)) 
 
 ####### FUNCTIONAL ANNOTATION
-## background 
+# background 
 counts <- read.table("counts/in_vivo_counts.tsv", header = TRUE, sep = "\t")
 coldata <- read.table("counts/in_vivo_coldata.tsv", header = TRUE, sep = "\t", stringsAsFactors = TRUE)
 
