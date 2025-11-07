@@ -74,9 +74,9 @@ for (pref in c("DP_maj_gene", "DP_min_gene")) {
   swapped[[paste0(pref, "_0_p2")]] <- swapped[[paste0(pref, "_1_p2")]]
   swapped[[paste0(pref, "_1_p2")]] <- tmp
 }
-
 res_df2 <- run_glm(swapped)
 
+# calculate p-value again and choose the higher one
 merged <- bind_rows(res_df1, res_df2) %>%
   arrange(desc(p_interaction)) %>%
   distinct(symbol, patients, .keep_all = TRUE) %>% 
