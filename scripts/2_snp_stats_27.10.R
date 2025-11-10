@@ -118,9 +118,7 @@ run_glm <- function(df) {
     )
     dat <- dat %>%
       mutate(total = maj + min) %>%
-      pivot_longer(cols = c(maj, min),
-                   names_to = "allele_type",
-                   values_to = "count") %>%
+      pivot_longer(cols = c(maj, min), names_to = "allele_type", values_to = "count") %>%
       mutate(is_maj = ifelse(allele_type == "maj", 1, 0))
     
     fit <- stats::glm(is_maj ~ condition * patient,

@@ -36,7 +36,6 @@ if (!exists("IN_VIVO")) {
   coldata_path <- "counts/in_vivo_coldata.tsv"
 }
 
-# stats_dir <- "data/"
 stats_dir <- "data/unfiltered_stats/"
 
 # in vitro chip-seq 
