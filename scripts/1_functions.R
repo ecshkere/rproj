@@ -12,8 +12,8 @@ assign_genes <- function(df, chr_col, start_col, end_col = start_col, promoters 
   ranges <- GRanges(seqnames = seqnames_col,
                     ranges = IRanges(start = df[[start_col]],
                                      end = df[[end_col]]))
-  df <- df %>%
-    mutate(entrezid = NA_character_)
+  df <- df %>% mutate(entrezid = NA_character_)
+  
   if (promoters) {
     overlaps <- findOverlaps(ranges, prmtrs)
     df$entrezid[queryHits(overlaps)] <- prmtrs$gene_id[subjectHits(overlaps)]
@@ -47,9 +47,10 @@ add_rsids <- function(df, chr_col, pos_col, ref_col) {
                     ranges = IRanges(df[[pos_col]], width = 1),
                     ref = df[[ref_col]])
   snps <- snpsByOverlaps(SNPlocs.Hsapiens.dbSNP155.GRCh38, ranges)
+  
   snp_df <- as.data.frame(snps)[, c("seqnames", "pos")] %>% 
-    mutate(rsid = mcols(snps)$RefSNP_id) %>% 
-    drop_na()
+    mutate(rsid = mcols(snps)$RefSNP_id) %>% drop_na()
+  
   df <- left_join(df, snp_df, by = set_names(c("seqnames", "pos"), c(chr_col, pos_col))) %>% 
     drop_na(rsid)
   return(df)
@@ -116,6 +117,18 @@ annotations_clean <- annotations_ordered %>%
   filter(!is.na(entrezid) & !is.na(symbol))
 all_symbols <- unique(annotations_clean$symbol)
 all_entrezids <- unique(annotations_clean$entrezid)
+
+all_counts <- read.table("counts/in_vivo_counts.tsv", header = TRUE, sep = "\t")
+all_coldata <- read.table("counts/in_vivo_coldata.tsv", header = TRUE, sep = "\t", stringsAsFactors = TRUE)
+
+dds <- DESeqDataSetFromMatrix(countData = all_counts,
+                              colData = all_coldata,
+                              design = ~ patient)
+dds <- estimateSizeFactors(dds)
+keep <- rowSums(counts(dds, normalized = TRUE) >= 5 ) >= 15
+background_ens <- names(keep[keep])
+background_symb <- annotations_clean$symbol[annotations_clean$ensembl %in% background_ens]
+background_entr <- annotations_clean$entrezid[annotations_clean$ensembl %in% background_ens]
 
 symbol_to_entrez <- function(x) {
   if (is.na(as.numeric(x[1]))) {

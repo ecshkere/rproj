@@ -1,0 +1,604 @@
+From	Entry	Reviewed	Entry Name	Protein names	Gene Names	Organism	Length
+ATF4	P18848	reviewed	ATF4_HUMAN	Cyclic AMP-dependent transcription factor ATF-4 (cAMP-dependent transcription factor ATF-4) (Activating transcription factor 4) (Cyclic AMP-responsive element-binding protein 2) (CREB-2) (cAMP-responsive element-binding protein 2) (Tax-responsive enhancer element-binding protein 67) (TaxREB67)	ATF4 CREB2 TXREB	Homo sapiens (Human)	351
+ATF4	A0A6Q8PFH6	unreviewed	A0A6Q8PFH6_HUMAN	Cyclic AMP-dependent transcription factor ATF-4	ATF4	Homo sapiens (Human)	126
+ATF4	A0A6Q8PG17	unreviewed	A0A6Q8PG17_HUMAN	Cyclic AMP-dependent transcription factor ATF-4 (Activating transcription factor 4)	ATF4	Homo sapiens (Human)	322
+ATF4	A0A6Q8PGY1	unreviewed	A0A6Q8PGY1_HUMAN	Cyclic AMP-dependent transcription factor ATF-4	ATF4	Homo sapiens (Human)	189
+ATF4	A0A6Q8PHB3	unreviewed	A0A6Q8PHB3_HUMAN	Cyclic AMP-dependent transcription factor ATF-4	ATF4	Homo sapiens (Human)	121
+ATF4	A0A7P0Z4J5	unreviewed	A0A7P0Z4J5_HUMAN	Activating transcription factor 4	ATF4	Homo sapiens (Human)	97
+ATF4	B4DJD4	unreviewed	B4DJD4_HUMAN	Cyclic AMP-dependent transcription factor ATF-4 (Activating transcription factor 4)	ATF4	Homo sapiens (Human)	267
+ATF4	Q6ICP0	unreviewed	Q6ICP0_HUMAN	Cyclic AMP-dependent transcription factor ATF-4 (Activating transcription factor 4)	ATF4	Homo sapiens (Human)	351
+ATF6	P18850	reviewed	ATF6A_HUMAN	Cyclic AMP-dependent transcription factor ATF-6 alpha (cAMP-dependent transcription factor ATF-6 alpha) (Activating transcription factor 6 alpha) (ATF6-alpha) [Cleaved into: Processed cyclic AMP-dependent transcription factor ATF-6 alpha]	ATF6	Homo sapiens (Human)	670
+ATF6	A0A7P0T8R5	unreviewed	A0A7P0T8R5_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	577
+ATF6	A0A7P0T8Y1	unreviewed	A0A7P0T8Y1_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	150
+ATF6	A0A7P0T992	unreviewed	A0A7P0T992_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	286
+ATF6	A0A7P0T9H5	unreviewed	A0A7P0T9H5_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	609
+ATF6	A0A7P0T9V3	unreviewed	A0A7P0T9V3_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	542
+ATF6	A0A7P0TAB8	unreviewed	A0A7P0TAB8_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	89
+ATF6	A0A7P0TAD1	unreviewed	A0A7P0TAD1_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	57
+ATF6	A0A7P0TAF2	unreviewed	A0A7P0TAF2_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	669
+ATF6	A0A7P0TAH1	unreviewed	A0A7P0TAH1_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	700
+ATF6	A0A7P0TAI7	unreviewed	A0A7P0TAI7_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	64
+ATF6	A0A7P0TB89	unreviewed	A0A7P0TB89_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	468
+ATF6	A0A7P0Z421	unreviewed	A0A7P0Z421_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	689
+ATF6	A0A7P0Z4I7	unreviewed	A0A7P0Z4I7_HUMAN	Activating transcription factor 6	ATF6	Homo sapiens (Human)	604
+GMEB2	Q9UKD1	reviewed	GMEB2_HUMAN	Glucocorticoid modulatory element-binding protein 2 (GMEB-2) (DNA-binding protein p79PIF) (Parvovirus initiation factor p79) (PIF p79)	GMEB2 KIAA1269	Homo sapiens (Human)	530
+GMEB2	L8ECE2	unreviewed	L8ECE2_HUMAN	Alternative protein GMEB2	GMEB2	Homo sapiens (Human)	141
+GMEB2	Q5JTV1	unreviewed	Q5JTV1_HUMAN	Glucocorticoid modulatory element binding protein 2	GMEB2 hCG_23414	Homo sapiens (Human)	479
+IRF3	Q14653	reviewed	IRF3_HUMAN	Interferon regulatory factor 3 (IRF-3)	IRF3	Homo sapiens (Human)	427
+IRF3	E2GIM5	unreviewed	E2GIM5_HUMAN	Interferon regulatory factor 3a	IRF3	Homo sapiens (Human)	392
+IRF3	E2GIM6	unreviewed	E2GIM6_HUMAN	Interferon regulatory factor 3b	IRF3	Homo sapiens (Human)	154
+IRF3	E2GIM7	unreviewed	E2GIM7_HUMAN	Interferon regulatory factor 3c (Interferon regulatory factor 3f)	IRF3	Homo sapiens (Human)	281
+IRF3	E2GIM8	unreviewed	E2GIM8_HUMAN	Interferon regulatory factor 3d	IRF3	Homo sapiens (Human)	154
+IRF3	E2GIM9	unreviewed	E2GIM9_HUMAN	Interferon regulatory factor 3e	IRF3	Homo sapiens (Human)	300
+IRF3	M0QX56	unreviewed	M0QX56_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	135
+IRF3	M0QXC8	unreviewed	M0QXC8_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	119
+IRF3	M0QYT9	unreviewed	M0QYT9_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	281
+IRF3	M0QYX3	unreviewed	M0QYX3_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	190
+IRF3	M0QZB7	unreviewed	M0QZB7_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	408
+IRF3	M0QZB8	unreviewed	M0QZB8_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	329
+IRF3	M0R007	unreviewed	M0R007_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	102
+IRF3	M0R0R8	unreviewed	M0R0R8_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	84
+IRF3	M0R0X9	unreviewed	M0R0X9_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	105
+IRF3	M0R205	unreviewed	M0R205_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	287
+IRF3	M0R3C2	unreviewed	M0R3C2_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	264
+IRF3	M0R3E9	unreviewed	M0R3E9_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	153
+IRF3	M0R3H7	unreviewed	M0R3H7_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	71
+IRF3	Q71U93	unreviewed	Q71U93_HUMAN	Interferon regulatory factor 3	IRF3	Homo sapiens (Human)	30
+IRF3	Q96GL3	unreviewed	Q96GL3_HUMAN	IRF3 protein (Interferon regulatory factor 3, isoform CRA_b)	IRF3 hCG_21108	Homo sapiens (Human)	452
+MLX	Q9UH92	reviewed	MLX_HUMAN	Max-like protein X (Class D basic helix-loop-helix protein 13) (bHLHd13) (Max-like bHLHZip protein) (Protein BigMax) (Transcription factor-like protein 4)	MLX BHLHD13 TCFL4	Homo sapiens (Human)	298
+MLX	K7EID0	unreviewed	K7EID0_HUMAN	Max-like protein X (Max-like bHLHZip protein) (Protein BigMax) (Transcription factor-like protein 4)	MLX	Homo sapiens (Human)	248
+MYSM1	Q5VVJ2	reviewed	MYSM1_HUMAN	Deubiquitinase MYSM1 (2A-DUB) (EC 3.4.19.-) (Myb-like, SWIRM and MPN domain-containing protein 1)	MYSM1 KIAA1915	Homo sapiens (Human)	828
+MYSM1	A0A590UJD8	unreviewed	A0A590UJD8_HUMAN	Deubiquitinase MYSM1 (Myb-like, SWIRM and MPN domain-containing protein 1)	MYSM1	Homo sapiens (Human)	806
+MYSM1	A0A590UJT8	unreviewed	A0A590UJT8_HUMAN	Myb like, SWIRM and MPN domains 1	MYSM1	Homo sapiens (Human)	111
+MYSM1	A0A590UJW2	unreviewed	A0A590UJW2_HUMAN	Deubiquitinase MYSM1 (Myb-like, SWIRM and MPN domain-containing protein 1)	MYSM1	Homo sapiens (Human)	573
+MYSM1	A0A590UK32	unreviewed	A0A590UK32_HUMAN	Deubiquitinase MYSM1 (Myb-like, SWIRM and MPN domain-containing protein 1)	MYSM1	Homo sapiens (Human)	526
+MYSM1	A0A8V8TKW8	unreviewed	A0A8V8TKW8_HUMAN	Deubiquitinase MYSM1 (Myb-like, SWIRM and MPN domain-containing protein 1)	MYSM1	Homo sapiens (Human)	820
+MYSM1	A0A8V8TMF1	unreviewed	A0A8V8TMF1_HUMAN	Myb like, SWIRM and MPN domains 1	MYSM1	Homo sapiens (Human)	119
+RFX1	P22670	reviewed	RFX1_HUMAN	MHC class II regulatory factor RFX1 (Enhancer factor C) (EF-C) (Regulatory factor X 1) (RFX) (Transcription factor RFX1)	RFX1	Homo sapiens (Human)	979
+RFX1	K7EIZ8	unreviewed	K7EIZ8_HUMAN	Regulatory factor X1	RFX1	Homo sapiens (Human)	158
+RXRB	P28702	reviewed	RXRB_HUMAN	Retinoic acid receptor RXR-beta (Nuclear receptor subfamily 2 group B member 2) (Retinoid X receptor beta)	RXRB NR2B2	Homo sapiens (Human)	533
+RXRB	A0A0G2JHI1	unreviewed	A0A0G2JHI1_HUMAN	Retinoid X receptor beta	RXRB	Homo sapiens (Human)	96
+RXRB	A0A0G2JKR7	unreviewed	A0A0G2JKR7_HUMAN	Retinoid X receptor beta	RXRB	Homo sapiens (Human)	347
+RXRB	A0A0S2Z4M5	unreviewed	A0A0S2Z4M5_HUMAN	Retinoid X receptor beta isoform 3	RXRB	Homo sapiens (Human)	508
+RXRB	A0A0S2Z4N9	unreviewed	A0A0S2Z4N9_HUMAN	Retinoid X receptor beta isoform 4	RXRB	Homo sapiens (Human)	171
+RXRB	A0A0S2Z570	unreviewed	A0A0S2Z570_HUMAN	RXRB (Retinoid X receptor beta isoform 2)	RXRB	Homo sapiens (Human)	537
+RXRB	E9PK75	unreviewed	E9PK75_HUMAN	Retinoid X receptor beta	RXRB	Homo sapiens (Human)	79
+RXRB	J3JS70	unreviewed	J3JS70_HUMAN	Retinoid X receptor, beta	RXRB RP5-1033B10.6-006	Homo sapiens (Human)	262
+RXRB	J3JS71	unreviewed	J3JS71_HUMAN	Retinoid X receptor, beta	RXRB RP5-1033B10.6-004	Homo sapiens (Human)	482
+RXRB	Q5STP9	unreviewed	Q5STP9_HUMAN	Retinoid X nuclear receptor beta (Retinoid X receptor beta isoform 1) (Retinoid X receptor, beta)	RXRB NR2B2 hCG_2042227	Homo sapiens (Human)	533
+SLC2A4RG	Q9NR83	reviewed	S2A4R_HUMAN	SLC2A4 regulator (GLUT4 enhancer factor) (GEF) (Huntington disease gene regulatory region-binding protein 1) (HDBP-1)	SLC2A4RG HDBP1	Homo sapiens (Human)	387
+SP1	P08047	reviewed	SP1_HUMAN	Transcription factor Sp1	SP1 TSFP1	Homo sapiens (Human)	785
+SP1	Q8N907	reviewed	DAND5_HUMAN	DAN domain family member 5 (Cerberus-like protein 2) (Cerl-2) (Cysteine knot superfamily 1, BMP antagonist 3) (Gremlin-3)	DAND5 CER2 CKTSF1B3 COCO GREM3 SP1	Homo sapiens (Human)	189
+SP1	B2R4Y6	unreviewed	B2R4Y6_HUMAN	Sp1 transcription factor, isoform CRA_a (cDNA, FLJ92269)	SP1 hCG_1787889	Homo sapiens (Human)	32
+SP1	C4PGM0	unreviewed	C4PGM0_HUMAN	Specificity protein 1	Sp1	Homo sapiens (Human)	299
+SP1	H3BUU5	unreviewed	H3BUU5_HUMAN	Sp1 transcription factor	SP1	Homo sapiens (Human)	162
+SP1	H3BVI2	unreviewed	H3BVI2_HUMAN	Sp1 transcription factor	SP1	Homo sapiens (Human)	230
+SP1	L8E7F4	unreviewed	L8E7F4_HUMAN	Alternative protein SP1	SP1	Homo sapiens (Human)	140
+SP1	Q15403	unreviewed	Q15403_HUMAN	Pregnancy-specific protein	SP1	Homo sapiens (Human)	352
+SP140	Q13342	reviewed	SP140_HUMAN	Nuclear body protein SP140 (Lymphoid-restricted homolog of Sp100) (LYSp100) (Nuclear autoantigen Sp-140) (Speckled 140 kDa)	SP140 LYSP100	Homo sapiens (Human)	867
+SP140	Q0VGE4	unreviewed	Q0VGE4_HUMAN	SP140 protein	SP140	Homo sapiens (Human)	807
+SP140	Q7Z2U4	unreviewed	Q7Z2U4_HUMAN	SP140 protein	SP140	Homo sapiens (Human)	238
+SP140	U3KPV9	unreviewed	U3KPV9_HUMAN	SP140 nuclear body protein	SP140	Homo sapiens (Human)	29
+SREBF2	Q12772	reviewed	SRBP2_HUMAN	Sterol regulatory element-binding protein 2 (SREBP-2) (Class D basic helix-loop-helix protein 2) (bHLHd2) (Sterol regulatory element-binding transcription factor 2) [Cleaved into: Processed sterol regulatory element-binding protein 2 (Transcription factor SREBF2)]	SREBF2 BHLHD2 SREBP2	Homo sapiens (Human)	1141
+SREBF2	A0AA34QVX2	unreviewed	A0AA34QVX2_HUMAN	Sterol regulatory element-binding protein 2 (Sterol regulatory element-binding transcription factor 2)	SREBF2	Homo sapiens (Human)	1111
+SREBF2	G3V0I8	unreviewed	G3V0I8_HUMAN	Sterol regulatory element-binding protein 2 (Sterol regulatory element-binding transcription factor 2)	SREBF2 hCG_41541	Homo sapiens (Human)	684
+SREBF2	H0Y7E5	unreviewed	H0Y7E5_HUMAN	Sterol regulatory element binding transcription factor 2	SREBF2	Homo sapiens (Human)	257
+TP53	P04637	reviewed	P53_HUMAN	Cellular tumor antigen p53 (Antigen NY-CO-13) (Phosphoprotein p53) (Tumor suppressor p53)	TP53 P53	Homo sapiens (Human)	393
+TP53	A0A087WT22	unreviewed	A0A087WT22_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	187
+TP53	A0A087WXZ1	unreviewed	A0A087WXZ1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	182
+TP53	A0A087X1Q1	unreviewed	A0A087X1Q1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	234
+TP53	A0A0A0U7X4	unreviewed	A0A0A0U7X4_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	A0A0M4B4Y9	unreviewed	A0A0M4B4Y9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	A0A0R9RRX7	unreviewed	A0A0R9RRX7_HUMAN	Tumor protein p53	TP53	Homo sapiens (Human)	42
+TP53	A0A0U1RQC9	unreviewed	A0A0U1RQC9_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	410
+TP53	A0A1B1PFC7	unreviewed	A0A1B1PFC7_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	53
+TP53	A0A1B1PFD4	unreviewed	A0A1B1PFD4_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	46
+TP53	A0A1D8V7A7	unreviewed	A0A1D8V7A7_HUMAN	TP53	TP53	Homo sapiens (Human)	96
+TP53	A0A218MJB0	unreviewed	A0A218MJB0_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	144
+TP53	A0A218MJC8	unreviewed	A0A218MJC8_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	144
+TP53	A0A218MJD5	unreviewed	A0A218MJD5_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	144
+TP53	A0A218MJD9	unreviewed	A0A218MJD9_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	144
+TP53	A0A218MJE1	unreviewed	A0A218MJE1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	144
+TP53	A0A218MJE5	unreviewed	A0A218MJE5_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	144
+TP53	A0A218MJF3	unreviewed	A0A218MJF3_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	144
+TP53	A0A346XLN8	unreviewed	A0A346XLN8_HUMAN	TP53	TP53	Homo sapiens (Human)	32
+TP53	A0A346XLN9	unreviewed	A0A346XLN9_HUMAN	TP53	TP53	Homo sapiens (Human)	29
+TP53	A0A346XLP0	unreviewed	A0A346XLP0_HUMAN	TP53	TP53	Homo sapiens (Human)	30
+TP53	A0A346XLP1	unreviewed	A0A346XLP1_HUMAN	TP53	TP53	Homo sapiens (Human)	33
+TP53	A0A346XLP2	unreviewed	A0A346XLP2_HUMAN	TP53	TP53	Homo sapiens (Human)	25
+TP53	A0A346XLP3	unreviewed	A0A346XLP3_HUMAN	TP53	TP53	Homo sapiens (Human)	33
+TP53	A0A346XLP5	unreviewed	A0A346XLP5_HUMAN	TP53	TP53	Homo sapiens (Human)	27
+TP53	A0A346XLP6	unreviewed	A0A346XLP6_HUMAN	TP53	TP53	Homo sapiens (Human)	25
+TP53	A0A346XLP7	unreviewed	A0A346XLP7_HUMAN	TP53	TP53	Homo sapiens (Human)	26
+TP53	A0A346XLP8	unreviewed	A0A346XLP8_HUMAN	TP53	TP53	Homo sapiens (Human)	34
+TP53	A0A346XLP9	unreviewed	A0A346XLP9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	36
+TP53	A0A346XLQ1	unreviewed	A0A346XLQ1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	39
+TP53	A0A346XLR1	unreviewed	A0A346XLR1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	34
+TP53	A0A346XLR9	unreviewed	A0A346XLR9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	38
+TP53	A0A346XLS5	unreviewed	A0A346XLS5_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	41
+TP53	A0A346XLS6	unreviewed	A0A346XLS6_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	33
+TP53	A0A346XLS7	unreviewed	A0A346XLS7_HUMAN	TP53	TP53	Homo sapiens (Human)	29
+TP53	A0A346XLS8	unreviewed	A0A346XLS8_HUMAN	TP53	TP53	Homo sapiens (Human)	32
+TP53	A0A346XLS9	unreviewed	A0A346XLS9_HUMAN	TP53	TP53	Homo sapiens (Human)	29
+TP53	A0A346XLT0	unreviewed	A0A346XLT0_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	37
+TP53	A0A346XLT1	unreviewed	A0A346XLT1_HUMAN	TP53	TP53	Homo sapiens (Human)	20
+TP53	A0A346XLT2	unreviewed	A0A346XLT2_HUMAN	TP53	TP53	Homo sapiens (Human)	32
+TP53	A0A346XLT3	unreviewed	A0A346XLT3_HUMAN	TP53	TP53	Homo sapiens (Human)	31
+TP53	A0A346XLT4	unreviewed	A0A346XLT4_HUMAN	TP53	TP53	Homo sapiens (Human)	22
+TP53	A0A346XLU1	unreviewed	A0A346XLU1_HUMAN	TP53	TP53	Homo sapiens (Human)	19
+TP53	A0A346XLW0	unreviewed	A0A346XLW0_HUMAN	TP53	TP53	Homo sapiens (Human)	24
+TP53	A0A346XLW4	unreviewed	A0A346XLW4_HUMAN	TP53	TP53	Homo sapiens (Human)	18
+TP53	A0A346XLW8	unreviewed	A0A346XLW8_HUMAN	TP53	TP53	Homo sapiens (Human)	22
+TP53	A0A346XLX0	unreviewed	A0A346XLX0_HUMAN	TP53	TP53	Homo sapiens (Human)	18
+TP53	A0A346XLX2	unreviewed	A0A346XLX2_HUMAN	TP53	TP53	Homo sapiens (Human)	25
+TP53	A0A346XLX3	unreviewed	A0A346XLX3_HUMAN	TP53	TP53	Homo sapiens (Human)	17
+TP53	A0A346XLX5	unreviewed	A0A346XLX5_HUMAN	TP53	TP53	Homo sapiens (Human)	23
+TP53	A0A346XLY3	unreviewed	A0A346XLY3_HUMAN	TP53	TP53	Homo sapiens (Human)	20
+TP53	A0A346XLY6	unreviewed	A0A346XLY6_HUMAN	TP53	TP53	Homo sapiens (Human)	21
+TP53	A0A346XM05	unreviewed	A0A346XM05_HUMAN	TP53	TP53	Homo sapiens (Human)	19
+TP53	A0A346XM06	unreviewed	A0A346XM06_HUMAN	TP53	TP53	Homo sapiens (Human)	17
+TP53	A0A346XM22	unreviewed	A0A346XM22_HUMAN	TP53	TP53	Homo sapiens (Human)	18
+TP53	A0A346XM28	unreviewed	A0A346XM28_HUMAN	TP53	TP53	Homo sapiens (Human)	26
+TP53	A0A346XM34	unreviewed	A0A346XM34_HUMAN	TP53	TP53	Homo sapiens (Human)	25
+TP53	A0A346XM38	unreviewed	A0A346XM38_HUMAN	TP53	TP53	Homo sapiens (Human)	22
+TP53	A0A346XM39	unreviewed	A0A346XM39_HUMAN	TP53	TP53	Homo sapiens (Human)	28
+TP53	A0A346XM40	unreviewed	A0A346XM40_HUMAN	TP53	TP53	Homo sapiens (Human)	20
+TP53	A0A346XM43	unreviewed	A0A346XM43_HUMAN	TP53	TP53	Homo sapiens (Human)	24
+TP53	A0A346XM49	unreviewed	A0A346XM49_HUMAN	TP53	TP53	Homo sapiens (Human)	21
+TP53	A0A346XM50	unreviewed	A0A346XM50_HUMAN	TP53	TP53	Homo sapiens (Human)	19
+TP53	A0A346XM51	unreviewed	A0A346XM51_HUMAN	TP53	TP53	Homo sapiens (Human)	20
+TP53	A0A346XM56	unreviewed	A0A346XM56_HUMAN	TP53	TP53	Homo sapiens (Human)	18
+TP53	A0A386NBZ1	unreviewed	A0A386NBZ1_HUMAN	Tumor protein p53	TP53	Homo sapiens (Human)	35
+TP53	A0A386NC20	unreviewed	A0A386NC20_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NC22	unreviewed	A0A386NC22_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NC25	unreviewed	A0A386NC25_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	305
+TP53	A0A386NC55	unreviewed	A0A386NC55_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NC62	unreviewed	A0A386NC62_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NCA6	unreviewed	A0A386NCA6_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NCB1	unreviewed	A0A386NCB1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NCU2	unreviewed	A0A386NCU2_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NCW8	unreviewed	A0A386NCW8_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NCX4	unreviewed	A0A386NCX4_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NDA8	unreviewed	A0A386NDA8_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NDB3	unreviewed	A0A386NDB3_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NFX3	unreviewed	A0A386NFX3_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NFY2	unreviewed	A0A386NFY2_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386NG45	unreviewed	A0A386NG45_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	A0A386YR42	unreviewed	A0A386YR42_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	41
+TP53	A0A3Q8QC73	unreviewed	A0A3Q8QC73_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	58
+TP53	A0A514TSZ1	unreviewed	A0A514TSZ1_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TSZ6	unreviewed	A0A514TSZ6_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TSZ9	unreviewed	A0A514TSZ9_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT08	unreviewed	A0A514TT08_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT13	unreviewed	A0A514TT13_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT20	unreviewed	A0A514TT20_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT23	unreviewed	A0A514TT23_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT34	unreviewed	A0A514TT34_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT40	unreviewed	A0A514TT40_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT49	unreviewed	A0A514TT49_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT50	unreviewed	A0A514TT50_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0A514TT61	unreviewed	A0A514TT61_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	93
+TP53	A0AAQ5BHX5	unreviewed	A0AAQ5BHX5_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	367
+TP53	A0AAQ5BHY1	unreviewed	A0AAQ5BHY1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	347
+TP53	A0AAQ5BHZ9	unreviewed	A0AAQ5BHZ9_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	411
+TP53	A2I9Y7	unreviewed	A2I9Y7_HUMAN	p53 (Tumor suppressor p53)	TP53 p53	Homo sapiens (Human)	93
+TP53	A2I9Z0	unreviewed	A2I9Z0_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 p53	Homo sapiens (Human)	36
+TP53	A2I9Z1	unreviewed	A2I9Z1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	45
+TP53	A2I9Z2	unreviewed	A2I9Z2_HUMAN	p53	TP53	Homo sapiens (Human)	24
+TP53	A4GW67	unreviewed	A4GW67_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	82
+TP53	A4GW74	unreviewed	A4GW74_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	75
+TP53	A4GW75	unreviewed	A4GW75_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	77
+TP53	A4GW76	unreviewed	A4GW76_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	73
+TP53	A4GW97	unreviewed	A4GW97_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	80
+TP53	A4GWB4	unreviewed	A4GWB4_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	82
+TP53	A4GWB5	unreviewed	A4GWB5_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	A4GWB8	unreviewed	A4GWB8_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	88
+TP53	A4GWD0	unreviewed	A4GWD0_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	89
+TP53	B1PZ15	unreviewed	B1PZ15_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	37
+TP53	B4XAK8	unreviewed	B4XAK8_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	61
+TP53	B4XAL0	unreviewed	B4XAL0_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	45
+TP53	B5AKF5	unreviewed	B5AKF5_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	35
+TP53	B5AKF6	unreviewed	B5AKF6_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	35
+TP53	B5AKF7	unreviewed	B5AKF7_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	46
+TP53	D5KL86	unreviewed	D5KL86_HUMAN	Truncated p53	TP53	Homo sapiens (Human)	9
+TP53	D5KL87	unreviewed	D5KL87_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	45
+TP53	D5KL88	unreviewed	D5KL88_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	36
+TP53	D5KL89	unreviewed	D5KL89_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	36
+TP53	D5KL90	unreviewed	D5KL90_HUMAN	p53	TP53	Homo sapiens (Human)	93
+TP53	E2G6R5	unreviewed	E2G6R5_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	E5RMA8	unreviewed	E5RMA8_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	E7EMR6	unreviewed	E7EMR6_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	165
+TP53	E7EQX7	unreviewed	E7EQX7_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	285
+TP53	E7ESS1	unreviewed	E7ESS1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	199
+TP53	E9PCY9	unreviewed	E9PCY9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	127
+TP53	E9PFT5	unreviewed	E9PFT5_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	300
+TP53	G4Y083	unreviewed	G4Y083_HUMAN	p53 (Tumor suppressor p53)	p53 TP53	Homo sapiens (Human)	93
+TP53	H2EHT1	unreviewed	H2EHT1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	354
+TP53	I3L0W9	unreviewed	I3L0W9_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	344
+TP53	J3KP33	unreviewed	J3KP33_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	343
+TP53	K7PPA8	unreviewed	K7PPA8_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	K7PPU4	unreviewed	K7PPU4_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	L0ENF7	unreviewed	L0ENF7_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0ENG6	unreviewed	L0ENG6_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0ENG9	unreviewed	L0ENG9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EP82	unreviewed	L0EP82_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0EP99	unreviewed	L0EP99_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0EPV7	unreviewed	L0EPV7_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EPW3	unreviewed	L0EPW3_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EPX4	unreviewed	L0EPX4_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	100
+TP53	L0EPY0	unreviewed	L0EPY0_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EPZ1	unreviewed	L0EPZ1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQ03	unreviewed	L0EQ03_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQ05	unreviewed	L0EQ05_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQ52	unreviewed	L0EQ52_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQ89	unreviewed	L0EQ89_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0EQ92	unreviewed	L0EQ92_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQE2	unreviewed	L0EQE2_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	100
+TP53	L0EQJ1	unreviewed	L0EQJ1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0EQP1	unreviewed	L0EQP1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQP9	unreviewed	L0EQP9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQQ9	unreviewed	L0EQQ9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQS1	unreviewed	L0EQS1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0EQT1	unreviewed	L0EQT1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0EQU5	unreviewed	L0EQU5_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQV3	unreviewed	L0EQV3_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0EQX3	unreviewed	L0EQX3_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0EQX9	unreviewed	L0EQX9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0EQY4	unreviewed	L0EQY4_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0ERB4	unreviewed	L0ERB4_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	107
+TP53	L0ERI9	unreviewed	L0ERI9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0ERJ3	unreviewed	L0ERJ3_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0ERK8	unreviewed	L0ERK8_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0ERL2	unreviewed	L0ERL2_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0ERS6	unreviewed	L0ERS6_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0ES54	unreviewed	L0ES54_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	100
+TP53	L0ES73	unreviewed	L0ES73_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	100
+TP53	L0ES92	unreviewed	L0ES92_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	99
+TP53	L0ESB7	unreviewed	L0ESB7_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	100
+TP53	L0ESQ5	unreviewed	L0ESQ5_HUMAN	Tumor suppressor p53	TP53	Homo sapiens (Human)	100
+TP53	Q0ZAJ9	unreviewed	Q0ZAJ9_HUMAN	p53-Ex10 isoform	TP53	Homo sapiens (Human)	44
+TP53	Q0ZAK0	unreviewed	Q0ZAK0_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	116
+TP53	Q0ZAK1	unreviewed	Q0ZAK1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	155
+TP53	Q19RW5	unreviewed	Q19RW5_HUMAN	Truncated p53 splice variant	TP53	Homo sapiens (Human)	25
+TP53	Q19RW6	unreviewed	Q19RW6_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	81
+TP53	Q1HGV0	unreviewed	Q1HGV0_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	37
+TP53	Q1HGV1	unreviewed	Q1HGV1_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53 p53	Homo sapiens (Human)	37
+TP53	Q1HGV2	unreviewed	Q1HGV2_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	37
+TP53	Q1HGV3	unreviewed	Q1HGV3_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	37
+TP53	Q1MSW8	unreviewed	Q1MSW8_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	343
+TP53	Q1MSW9	unreviewed	Q1MSW9_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	285
+TP53	Q1MSX0	unreviewed	Q1MSX0_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	382
+TP53	Q2XSC7	unreviewed	Q2XSC7_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	393
+TP53	Q761V2	unreviewed	Q761V2_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	p53 TP53	Homo sapiens (Human)	61
+TP53	S4R334	unreviewed	S4R334_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	386
+TP53	S5LJ04	unreviewed	S5LJ04_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LJ49	unreviewed	S5LJ49_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LJ61	unreviewed	S5LJ61_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LMC6	unreviewed	S5LMC6_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LME3	unreviewed	S5LME3_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LMG1	unreviewed	S5LMG1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LMI5	unreviewed	S5LMI5_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	78
+TP53	S5LQQ1	unreviewed	S5LQQ1_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LQU3	unreviewed	S5LQU3_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LQU8	unreviewed	S5LQU8_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5LQX7	unreviewed	S5LQX7_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5M207	unreviewed	S5M207_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5M224	unreviewed	S5M224_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5M706	unreviewed	S5M706_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	S5M713	unreviewed	S5M713_HUMAN	Cellular tumor antigen p53	TP53	Homo sapiens (Human)	115
+TP53	U6BGT3	unreviewed	U6BGT3_HUMAN	Truncated TP53	TP53	Homo sapiens (Human)	39
+TP53	U6BHT9	unreviewed	U6BHT9_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	36
+TP53	U6BHU6	unreviewed	U6BHU6_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	45
+TP53	U6BI14	unreviewed	U6BI14_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	45
+TP53	U6BKV7	unreviewed	U6BKV7_HUMAN	Cellular tumor antigen p53 (Tumor suppressor p53)	TP53	Homo sapiens (Human)	45
+TTF1	P43699	reviewed	NKX21_HUMAN	Homeobox protein Nkx-2.1 (Homeobox protein NK-2 homolog A) (Thyroid nuclear factor 1) (Thyroid transcription factor 1) (TTF-1) (Thyroid-specific enhancer-binding protein) (T/EBP)	NKX2-1 NKX2A TITF1 TTF1	Homo sapiens (Human)	371
+TTF1	Q15361	reviewed	TTF1_HUMAN	Transcription termination factor 1 (TTF-1) (RNA polymerase I termination factor) (Transcription termination factor I) (TTF-I)	TTF1	Homo sapiens (Human)	905
+TTF1	A0A087WY09	unreviewed	A0A087WY09_HUMAN	Transcription termination factor 1	TTF1	Homo sapiens (Human)	390
+UBP1	Q9NZI7	reviewed	UBIP1_HUMAN	Upstream-binding protein 1 (Transcription factor LBP-1)	UBP1 LBP1	Homo sapiens (Human)	540
+UBP1	C9JWL3	unreviewed	C9JWL3_HUMAN	Upstream binding protein 1	UBP1	Homo sapiens (Human)	148
+UBP1	F8WEP8	unreviewed	F8WEP8_HUMAN	Upstream-binding protein 1	UBP1	Homo sapiens (Human)	164
+ZBED4	O75132	reviewed	ZBED4_HUMAN	Zinc finger BED domain-containing protein 4	ZBED4 KIAA0637	Homo sapiens (Human)	1171
+ZBTB42	B2RXF5	reviewed	ZBT42_HUMAN	Zinc finger and BTB domain-containing protein 42	ZBTB42	Homo sapiens (Human)	422
+ZFP90	Q8TF47	reviewed	ZFP90_HUMAN	Zinc finger protein 90 homolog (Zfp-90) (Zinc finger protein 756)	ZFP90 KIAA1954 ZNF756	Homo sapiens (Human)	636
+ZFP90	H3BMI1	unreviewed	H3BMI1_HUMAN	ZFP90 zinc finger protein	ZFP90	Homo sapiens (Human)	60
+ZFP90	H3BVC6	unreviewed	H3BVC6_HUMAN	ZFP90 zinc finger protein	ZFP90	Homo sapiens (Human)	103
+ZFP90	I3L0T2	unreviewed	I3L0T2_HUMAN	ZFP90 zinc finger protein	ZFP90	Homo sapiens (Human)	33
+ZFP90	I3L0X7	unreviewed	I3L0X7_HUMAN	ZFP90 zinc finger protein	ZFP90	Homo sapiens (Human)	102
+ZFP90	I3L1L4	unreviewed	I3L1L4_HUMAN	ZFP90 zinc finger protein	ZFP90	Homo sapiens (Human)	45
+ZFP90	I3L2Q3	unreviewed	I3L2Q3_HUMAN	ZFP90 zinc finger protein	ZFP90	Homo sapiens (Human)	52
+ZFP90	I3L3M0	unreviewed	I3L3M0_HUMAN	ZFP90 zinc finger protein	ZFP90	Homo sapiens (Human)	47
+ZFP90	J3QKQ8	unreviewed	J3QKQ8_HUMAN	ZFP90 zinc finger protein	ZFP90	Homo sapiens (Human)	93
+ZNF101	Q8IZC7	reviewed	ZN101_HUMAN	Zinc finger protein 101 (Zinc finger protein HZF12)	ZNF101	Homo sapiens (Human)	436
+ZNF101	K7EN16	unreviewed	K7EN16_HUMAN	Zinc finger protein 101	ZNF101	Homo sapiens (Human)	147
+ZNF101	K7ENV8	unreviewed	K7ENV8_HUMAN	Zinc finger protein 101	ZNF101	Homo sapiens (Human)	58
+ZNF101	Q504T0	unreviewed	Q504T0_HUMAN	ZNF101 protein (Zinc finger protein 101)	ZNF101	Homo sapiens (Human)	61
+ZNF101	Q96F93	unreviewed	Q96F93_HUMAN	ZNF101 protein	ZNF101	Homo sapiens (Human)	373
+ZNF135	P52742	reviewed	ZN135_HUMAN	Zinc finger protein 135 (Zinc finger protein 61) (Zinc finger protein 78-like 1)	ZNF135 ZNF61 ZNF78L1	Homo sapiens (Human)	658
+ZNF135	M0R0N7	unreviewed	M0R0N7_HUMAN	Zinc finger protein 135	ZNF135	Homo sapiens (Human)	73
+ZNF135	Q8N9M3	unreviewed	Q8N9M3_HUMAN	Zinc finger protein 135	ZNF135 hCG_2039973	Homo sapiens (Human)	616
+ZNF14	P17017	reviewed	ZNF14_HUMAN	Zinc finger protein 14 (Gonadotropin-inducible ovary transcription repressor 4) (GIOT-4) (Zinc finger protein KOX6)	ZNF14 GIOT4 KOX6	Homo sapiens (Human)	642
+ZNF142	P52746	reviewed	ZN142_HUMAN	Zinc finger protein 142	ZNF142 KIAA0236	Homo sapiens (Human)	1687
+ZNF142	A0A7P0N7C4	unreviewed	A0A7P0N7C4_HUMAN	Zinc finger protein 142	ZNF142	Homo sapiens (Human)	1887
+ZNF142	C9J055	unreviewed	C9J055_HUMAN	Zinc finger protein 142	ZNF142	Homo sapiens (Human)	26
+ZNF142	F2Z2H3	unreviewed	F2Z2H3_HUMAN	Zinc finger protein 142	ZNF142	Homo sapiens (Human)	98
+ZNF142	H7C414	unreviewed	H7C414_HUMAN	Zinc finger protein 142	ZNF142	Homo sapiens (Human)	1065
+ZNF160	Q9HCG1	reviewed	ZN160_HUMAN	Zinc finger protein 160 (Zinc finger protein HZF5) (Zinc finger protein Kr18) (HKr18)	ZNF160 KIAA1611	Homo sapiens (Human)	818
+ZNF160	M0QXU9	unreviewed	M0QXU9_HUMAN	Zinc finger protein 160	ZNF160	Homo sapiens (Human)	556
+ZNF160	M0QZ49	unreviewed	M0QZ49_HUMAN	Zinc finger protein 160	ZNF160	Homo sapiens (Human)	117
+ZNF160	M0QZI7	unreviewed	M0QZI7_HUMAN	Zinc finger protein 160	ZNF160 hCG_19658	Homo sapiens (Human)	782
+ZNF180	Q9UJW8	reviewed	ZN180_HUMAN	Zinc finger protein 180 (HHZ168)	ZNF180	Homo sapiens (Human)	692
+ZNF180	G5E9B8	unreviewed	G5E9B8_HUMAN	Zinc finger protein 180	ZNF180	Homo sapiens (Human)	667
+ZNF180	K7EMI5	unreviewed	K7EMI5_HUMAN	Zinc finger protein 180	ZNF180	Homo sapiens (Human)	50
+ZNF180	K7EQP0	unreviewed	K7EQP0_HUMAN	Zinc finger protein 180	ZNF180	Homo sapiens (Human)	183
+ZNF180	K7ES30	unreviewed	K7ES30_HUMAN	Zinc finger protein 180	ZNF180	Homo sapiens (Human)	65
+ZNF223	Q9UK11	reviewed	ZN223_HUMAN	Zinc finger protein 223	ZNF223	Homo sapiens (Human)	482
+ZNF223	K7EPW2	unreviewed	K7EPW2_HUMAN	Zinc finger protein 223	ZNF223	Homo sapiens (Human)	89
+ZNF223	K7EQ32	unreviewed	K7EQ32_HUMAN	Zinc finger protein 223	ZNF223	Homo sapiens (Human)	222
+ZNF223	K7ER65	unreviewed	K7ER65_HUMAN	Zinc finger protein 223	ZNF223	Homo sapiens (Human)	92
+ZNF23	P17027	reviewed	ZNF23_HUMAN	Zinc finger protein 23 (Zinc finger protein 359) (Zinc finger protein 612) (Zinc finger protein KOX16)	ZNF23 KOX16 ZNF359 ZNF612	Homo sapiens (Human)	643
+ZNF23	A0A3B3ITE4	unreviewed	A0A3B3ITE4_HUMAN	Zinc finger protein 23	ZNF23	Homo sapiens (Human)	686
+ZNF23	H0Y310	unreviewed	H0Y310_HUMAN	Zinc finger protein 23	ZNF23	Homo sapiens (Human)	122
+ZNF23	H3BMC6	unreviewed	H3BMC6_HUMAN	Zinc finger protein 23	ZNF23	Homo sapiens (Human)	103
+ZNF23	H3BPE6	unreviewed	H3BPE6_HUMAN	Zinc finger protein 23	ZNF23	Homo sapiens (Human)	27
+ZNF23	H3BSF8	unreviewed	H3BSF8_HUMAN	Zinc finger protein 23	ZNF23	Homo sapiens (Human)	83
+ZNF233	A6NK53	reviewed	ZN233_HUMAN	Zinc finger protein 233	ZNF233	Homo sapiens (Human)	670
+ZNF233	Q9NZL3	reviewed	ZN224_HUMAN	Zinc finger protein 224 (Bone marrow zinc finger 2) (BMZF-2) (Zinc finger protein 233) (Zinc finger protein 255) (Zinc finger protein 27) (Zinc finger protein KOX22)	ZNF224 BMZF2 KOX22 ZNF233 ZNF255 ZNF27	Homo sapiens (Human)	707
+ZNF233	K7EJE5	unreviewed	K7EJE5_HUMAN	Zinc finger protein 233	ZNF233	Homo sapiens (Human)	116
+ZNF233	K7EJT0	unreviewed	K7EJT0_HUMAN	Zinc finger protein 233	ZNF233	Homo sapiens (Human)	83
+ZNF233	K7EN46	unreviewed	K7EN46_HUMAN	Zinc finger protein 233	ZNF233	Homo sapiens (Human)	162
+ZNF233	K7ER86	unreviewed	K7ER86_HUMAN	Zinc finger protein 233	ZNF233	Homo sapiens (Human)	140
+ZNF24	P17028	reviewed	ZNF24_HUMAN	Zinc finger protein 24 (Retinoic acid suppression protein A) (RSG-A) (Zinc finger and SCAN domain-containing protein 3) (Zinc finger protein 191) (Zinc finger protein KOX17)	ZNF24 KOX17 ZNF191 ZSCAN3	Homo sapiens (Human)	368
+ZNF24	K7EPL1	unreviewed	K7EPL1_HUMAN	Zinc finger protein 24	ZNF24	Homo sapiens (Human)	138
+ZNF24	K7EPZ8	unreviewed	K7EPZ8_HUMAN	Zinc finger protein 24	ZNF24	Homo sapiens (Human)	102
+ZNF24	K7EQP8	unreviewed	K7EQP8_HUMAN	Zinc finger protein 24	ZNF24	Homo sapiens (Human)	96
+ZNF263	O14978	reviewed	ZN263_HUMAN	Zinc finger protein 263 (Zinc finger protein FPM315) (Zinc finger protein with KRAB and SCAN domains 12)	ZNF263 FPM315 ZKSCAN12	Homo sapiens (Human)	683
+ZNF263	B4DI05	unreviewed	B4DI05_HUMAN	Zinc finger protein 263	ZNF263	Homo sapiens (Human)	331
+ZNF263	D3DUC1	unreviewed	D3DUC1_HUMAN	Zinc finger protein 263 (Zinc finger protein FPM315) (Zinc finger protein with KRAB and SCAN domains 12)	ZNF263 hCG_2039169	Homo sapiens (Human)	683
+ZNF263	I3L0N0	unreviewed	I3L0N0_HUMAN	Zinc finger protein 263	ZNF263	Homo sapiens (Human)	160
+ZNF263	I3L2X3	unreviewed	I3L2X3_HUMAN	Zinc finger protein 263	ZNF263	Homo sapiens (Human)	226
+ZNF263	I3L393	unreviewed	I3L393_HUMAN	Zinc finger protein 263	ZNF263	Homo sapiens (Human)	149
+ZNF263	I3NI39	unreviewed	I3NI39_HUMAN	Zinc finger protein 263 (Zinc finger protein FPM315) (Zinc finger protein with KRAB and SCAN domains 12)	ZNF263	Homo sapiens (Human)	598
+ZNF264	O43296	reviewed	ZN264_HUMAN	Zinc finger protein 264	ZNF264 KIAA0412	Homo sapiens (Human)	627
+ZNF264	M0QXF3	unreviewed	M0QXF3_HUMAN	Zinc finger protein 264	ZNF264	Homo sapiens (Human)	39
+ZNF264	M0QZJ4	unreviewed	M0QZJ4_HUMAN	Zinc finger protein 264	ZNF264	Homo sapiens (Human)	96
+ZNF264	M0QZT5	unreviewed	M0QZT5_HUMAN	Zinc finger protein 264	ZNF264	Homo sapiens (Human)	84
+ZNF264	M0R146	unreviewed	M0R146_HUMAN	Zinc finger protein 264	ZNF264	Homo sapiens (Human)	64
+ZNF264	Q14C61	unreviewed	Q14C61_HUMAN	ZNF264 protein (Zinc finger protein 264)	ZNF264 hCG_1754547	Homo sapiens (Human)	627
+ZNF28	P17035	reviewed	ZNF28_HUMAN	Zinc finger protein 28 (Zinc finger protein KOX24)	ZNF28 KOX24	Homo sapiens (Human)	718
+ZNF28	C9K0H3	unreviewed	C9K0H3_HUMAN	Zinc finger protein 28	ZNF28	Homo sapiens (Human)	546
+ZNF28	F8WBV3	unreviewed	F8WBV3_HUMAN	Zinc finger protein 28	ZNF28	Homo sapiens (Human)	79
+ZNF28	M0QXU3	unreviewed	M0QXU3_HUMAN	Zinc finger protein 28	ZNF28	Homo sapiens (Human)	129
+ZNF28	M0R0U4	unreviewed	M0R0U4_HUMAN	Zinc finger protein 28	ZNF28	Homo sapiens (Human)	175
+ZNF28	Q6NSH2	unreviewed	Q6NSH2_HUMAN	ZNF28 protein	ZNF28	Homo sapiens (Human)	74
+ZNF283	Q8N7M2	reviewed	ZN283_HUMAN	Zinc finger protein 283 (Zinc finger protein HZF19)	ZNF283	Homo sapiens (Human)	679
+ZNF283	A0A494C0U8	unreviewed	A0A494C0U8_HUMAN	Zinc finger protein 283	ZNF283	Homo sapiens (Human)	643
+ZNF283	K7EL69	unreviewed	K7EL69_HUMAN	Zinc finger protein 283	ZNF283	Homo sapiens (Human)	45
+ZNF283	K7ESH0	unreviewed	K7ESH0_HUMAN	Zinc finger protein 283	ZNF283	Homo sapiens (Human)	54
+ZNF283	Q4G0N1	unreviewed	Q4G0N1_HUMAN	ZNF283 protein (Zinc finger protein 283)	ZNF283	Homo sapiens (Human)	83
+ZNF284	Q2VY69	reviewed	ZN284_HUMAN	Zinc finger protein 284	ZNF284 ZNF284L	Homo sapiens (Human)	593
+ZNF285	Q96NJ3	reviewed	ZN285_HUMAN	Zinc finger protein 285 (Zinc finger protein 285A)	ZNF285 ZNF285A	Homo sapiens (Human)	590
+ZNF285	K7EIK6	unreviewed	K7EIK6_HUMAN	Zinc finger protein 285	ZNF285	Homo sapiens (Human)	597
+ZNF285	K7EQE9	unreviewed	K7EQE9_HUMAN	Zinc finger protein 285	ZNF285	Homo sapiens (Human)	56
+ZNF285	K7ERT5	unreviewed	K7ERT5_HUMAN	Zinc finger protein 285	ZNF285	Homo sapiens (Human)	39
+ZNF285	Q86WM0	unreviewed	Q86WM0_HUMAN	Zinc finger protein ZNF285	ZNF285	Homo sapiens (Human)	278
+ZNF30	P17039	reviewed	ZNF30_HUMAN	Zinc finger protein 30 (Zinc finger protein KOX28)	ZNF30 KOX28	Homo sapiens (Human)	623
+ZNF30	L8E9Q4	unreviewed	L8E9Q4_HUMAN	Alternative protein ZNF30	ZNF30	Homo sapiens (Human)	46
+ZNF30	V9GYJ2	unreviewed	V9GYJ2_HUMAN	Zinc finger protein 30	ZNF30	Homo sapiens (Human)	86
+ZNF316	A6NFI3	reviewed	ZN316_HUMAN	Zinc finger protein 316	ZNF316	Homo sapiens (Human)	1004
+ZNF316	A0A087WZ61	unreviewed	A0A087WZ61_HUMAN	Zinc finger protein 316	ZNF316	Homo sapiens (Human)	40
+ZNF320	A2RRD8	reviewed	ZN320_HUMAN	Zinc finger protein 320	ZNF320	Homo sapiens (Human)	509
+ZNF320	A0A669KBJ2	unreviewed	A0A669KBJ2_HUMAN	Zinc finger protein 320	ZNF320	Homo sapiens (Human)	117
+ZNF320	M0QX96	unreviewed	M0QX96_HUMAN	Zinc finger protein 320	ZNF320	Homo sapiens (Human)	155
+ZNF320	M0QZA2	unreviewed	M0QZA2_HUMAN	Zinc finger protein 320	ZNF320	Homo sapiens (Human)	86
+ZNF320	M0R0Z8	unreviewed	M0R0Z8_HUMAN	Zinc finger protein 320	ZNF320	Homo sapiens (Human)	25
+ZNF320	M0R1K6	unreviewed	M0R1K6_HUMAN	Zinc finger protein 320	ZNF320	Homo sapiens (Human)	57
+ZNF320	M0R2L4	unreviewed	M0R2L4_HUMAN	Zinc finger protein 320	ZNF320	Homo sapiens (Human)	123
+ZNF347	Q96SE7	reviewed	ZN347_HUMAN	Zinc finger protein 347 (Zinc finger protein 1111)	ZNF347 ZNF1111	Homo sapiens (Human)	839
+ZNF347	M0QXR8	unreviewed	M0QXR8_HUMAN	Zinc finger protein 347	ZNF347	Homo sapiens (Human)	125
+ZNF347	M0QZE2	unreviewed	M0QZE2_HUMAN	Zinc finger protein 347	ZNF347	Homo sapiens (Human)	102
+ZNF347	M0QZJ6	unreviewed	M0QZJ6_HUMAN	Zinc finger protein 347	ZNF347	Homo sapiens (Human)	34
+ZNF347	M0R1E9	unreviewed	M0R1E9_HUMAN	Zinc finger protein 347	ZNF347	Homo sapiens (Human)	34
+ZNF350	Q9GZX5	reviewed	ZN350_HUMAN	Zinc finger protein 350 (KRAB zinc finger protein ZFQR) (Zinc finger and BRCA1-interacting protein with a KRAB domain 1) (Zinc finger protein ZBRK1)	ZNF350 ZBRK1	Homo sapiens (Human)	532
+ZNF350	M0QY52	unreviewed	M0QY52_HUMAN	Zinc finger protein 350	ZNF350	Homo sapiens (Human)	67
+ZNF350	M0QYT6	unreviewed	M0QYT6_HUMAN	Zinc finger protein 350	ZNF350	Homo sapiens (Human)	62
+ZNF350	M0R017	unreviewed	M0R017_HUMAN	Zinc finger protein 350	ZNF350	Homo sapiens (Human)	163
+ZNF350	M0R1T8	unreviewed	M0R1T8_HUMAN	Zinc finger protein 350	ZNF350	Homo sapiens (Human)	52
+ZNF37A	P17032	reviewed	ZN37A_HUMAN	Zinc finger protein 37A (Zinc finger protein KOX21)	ZNF37A KOX21 ZNF37	Homo sapiens (Human)	561
+ZNF37A	A0A1B0GVV4	unreviewed	A0A1B0GVV4_HUMAN	Zinc finger protein 37A	ZNF37A	Homo sapiens (Human)	108
+ZNF382	Q96SR6	reviewed	ZN382_HUMAN	Zinc finger protein 382 (KRAB/zinc finger suppressor protein 1) (KS1) (Multiple zinc finger and krueppel-associated box protein KS1)	ZNF382	Homo sapiens (Human)	550
+ZNF382	C9JME7	unreviewed	C9JME7_HUMAN	Zinc finger protein 382 (KRAB/zinc finger suppressor protein 1) (Multiple zinc finger and krueppel-associated box protein KS1)	ZNF382	Homo sapiens (Human)	501
+ZNF382	K7EK67	unreviewed	K7EK67_HUMAN	Zinc finger protein 382	ZNF382	Homo sapiens (Human)	184
+ZNF382	K7EQ52	unreviewed	K7EQ52_HUMAN	Zinc finger protein 382	ZNF382	Homo sapiens (Human)	25
+ZNF382	L0R6T6	unreviewed	L0R6T6_HUMAN	Alternative protein ZNF382	ZNF382	Homo sapiens (Human)	164
+ZNF395	Q9H8N7	reviewed	ZN395_HUMAN	Zinc finger protein 395 (HD-regulating factor 2) (HDRF-2) (Huntington disease gene regulatory region-binding protein 2) (HD gene regulatory region-binding protein 2) (HDBP-2) (Papillomavirus regulatory factor 1) (PRF-1) (Papillomavirus-binding factor)	ZNF395 HDBP2 PBF	Homo sapiens (Human)	513
+ZNF395	A0A0C4DGD9	unreviewed	A0A0C4DGD9_HUMAN	Zinc finger protein 395	ZNF395	Homo sapiens (Human)	47
+ZNF395	E5RFV4	unreviewed	E5RFV4_HUMAN	Zinc finger protein 395	ZNF395	Homo sapiens (Human)	187
+ZNF395	E5RG59	unreviewed	E5RG59_HUMAN	Zinc finger protein 395	ZNF395	Homo sapiens (Human)	124
+ZNF395	E5RGF1	unreviewed	E5RGF1_HUMAN	Zinc finger protein 395	ZNF395	Homo sapiens (Human)	156
+ZNF395	E5RH90	unreviewed	E5RH90_HUMAN	Zinc finger protein 395	ZNF395	Homo sapiens (Human)	102
+ZNF395	H0YAN1	unreviewed	H0YAN1_HUMAN	Zinc finger protein 395	ZNF395	Homo sapiens (Human)	30
+ZNF407	Q9C0G0	reviewed	ZN407_HUMAN	Zinc finger protein 407	ZNF407 KIAA1703	Homo sapiens (Human)	2248
+ZNF407	A0A087WV78	unreviewed	A0A087WV78_HUMAN	Zinc finger protein 407	ZNF407	Homo sapiens (Human)	137
+ZNF407	A0A087WYH1	unreviewed	A0A087WYH1_HUMAN	Zinc finger protein 407	ZNF407	Homo sapiens (Human)	129
+ZNF417	Q8TAU3	reviewed	ZN417_HUMAN	Zinc finger protein 417	ZNF417	Homo sapiens (Human)	575
+ZNF417	M0QXH9	unreviewed	M0QXH9_HUMAN	Zinc finger protein 417	ZNF417	Homo sapiens (Human)	15
+ZNF417	M0R0M6	unreviewed	M0R0M6_HUMAN	Zinc finger protein 417	ZNF417	Homo sapiens (Human)	51
+ZNF417	M0R0V5	unreviewed	M0R0V5_HUMAN	Zinc finger protein 417	ZNF417	Homo sapiens (Human)	21
+ZNF417	M0R178	unreviewed	M0R178_HUMAN	Zinc finger protein 417	ZNF417	Homo sapiens (Human)	57
+ZNF417	M0R230	unreviewed	M0R230_HUMAN	Zinc finger protein 417	ZNF417	Homo sapiens (Human)	574
+ZNF417	M0R267	unreviewed	M0R267_HUMAN	Zinc finger protein 417	ZNF417	Homo sapiens (Human)	90
+ZNF425	Q6IV72	reviewed	ZN425_HUMAN	Zinc finger protein 425	ZNF425	Homo sapiens (Human)	752
+ZNF425	C9JNW7	unreviewed	C9JNW7_HUMAN	Zinc finger protein 425	ZNF425	Homo sapiens (Human)	149
+ZNF436	Q9C0F3	reviewed	ZN436_HUMAN	Zinc finger protein 436	ZNF436 KIAA1710	Homo sapiens (Human)	470
+ZNF436	A0AAA9YHR6	unreviewed	A0AAA9YHR6_HUMAN	Zinc finger protein 436	ZNF436	Homo sapiens (Human)	452
+ZNF441	Q8N8Z8	reviewed	ZN441_HUMAN	Zinc finger protein 441	ZNF441	Homo sapiens (Human)	693
+ZNF441	A0A0A0MSF7	unreviewed	A0A0A0MSF7_HUMAN	Zinc finger protein 441	ZNF441	Homo sapiens (Human)	44
+ZNF460	Q14592	reviewed	ZN460_HUMAN	Zinc finger protein 460 (Zinc finger protein 272) (Zinc finger protein HZF8)	ZNF460 ZNF272	Homo sapiens (Human)	562
+ZNF460	M0R0J6	unreviewed	M0R0J6_HUMAN	Zinc finger protein 460	ZNF460	Homo sapiens (Human)	127
+ZNF468	Q5VIY5	reviewed	ZN468_HUMAN	Zinc finger protein 468	ZNF468	Homo sapiens (Human)	522
+ZNF468	M0QYC0	unreviewed	M0QYC0_HUMAN	Zinc finger protein 468	ZNF468	Homo sapiens (Human)	45
+ZNF468	M0QYE7	unreviewed	M0QYE7_HUMAN	Zinc finger protein 468	ZNF468	Homo sapiens (Human)	137
+ZNF468	M0QZR5	unreviewed	M0QZR5_HUMAN	Zinc finger protein 468	ZNF468	Homo sapiens (Human)	45
+ZNF468	M0R171	unreviewed	M0R171_HUMAN	Zinc finger protein 468	ZNF468	Homo sapiens (Human)	77
+ZNF468	Q6P514	unreviewed	Q6P514_HUMAN	ZNF468 protein	ZNF468	Homo sapiens (Human)	98
+ZNF470	Q6ECI4	reviewed	ZN470_HUMAN	Zinc finger protein 470 (Chondrogenesis zinc finger protein 1) (CZF-1)	ZNF470 CZF1	Homo sapiens (Human)	717
+ZNF470	M0R0Q6	unreviewed	M0R0Q6_HUMAN	Zinc finger protein 470	ZNF470	Homo sapiens (Human)	102
+ZNF470	M0R2Y9	unreviewed	M0R2Y9_HUMAN	Zinc finger protein 470	ZNF470	Homo sapiens (Human)	46
+ZNF48	Q96MX3	reviewed	ZNF48_HUMAN	Zinc finger protein 48 (Zinc finger protein 553)	ZNF48 ZNF553	Homo sapiens (Human)	618
+ZNF48	A0A087WVT1	unreviewed	A0A087WVT1_HUMAN	Zinc finger protein 48 (Zinc finger protein 553)	ZNF48	Homo sapiens (Human)	495
+ZNF48	E9PJ50	unreviewed	E9PJ50_HUMAN	Zinc finger protein 48	ZNF48	Homo sapiens (Human)	147
+ZNF490	Q9ULM2	reviewed	ZN490_HUMAN	Zinc finger protein 490	ZNF490 KIAA1198	Homo sapiens (Human)	529
+ZNF490	C9JID3	unreviewed	C9JID3_HUMAN	Zinc finger protein 490	ZNF490	Homo sapiens (Human)	131
+ZNF490	F8WDW6	unreviewed	F8WDW6_HUMAN	Zinc finger protein 490	ZNF490	Homo sapiens (Human)	60
+ZNF497	Q6ZNH5	reviewed	ZN497_HUMAN	Zinc finger protein 497	ZNF497	Homo sapiens (Human)	498
+ZNF497	M0R159	unreviewed	M0R159_HUMAN	Zinc finger protein 497	ZNF497	Homo sapiens (Human)	108
+ZNF529	Q6P280	reviewed	ZN529_HUMAN	Zinc finger protein 529	ZNF529 KIAA1615	Homo sapiens (Human)	563
+ZNF529	A0A0C4DFR4	unreviewed	A0A0C4DFR4_HUMAN	Zinc finger protein 529	ZNF529	Homo sapiens (Human)	458
+ZNF529	K7EKM0	unreviewed	K7EKM0_HUMAN	Zinc finger protein 529	ZNF529	Homo sapiens (Human)	85
+ZNF529	K7EL49	unreviewed	K7EL49_HUMAN	Zinc finger protein 529	ZNF529	Homo sapiens (Human)	112
+ZNF529	K7ELR0	unreviewed	K7ELR0_HUMAN	Zinc finger protein 529	ZNF529	Homo sapiens (Human)	92
+ZNF529	K7ES80	unreviewed	K7ES80_HUMAN	Zinc finger protein 529	ZNF529	Homo sapiens (Human)	72
+ZNF529	K7ESA1	unreviewed	K7ESA1_HUMAN	Zinc finger protein 529	ZNF529	Homo sapiens (Human)	110
+ZNF530	Q6P9A1	reviewed	ZN530_HUMAN	Zinc finger protein 530	ZNF530 KIAA1508	Homo sapiens (Human)	599
+ZNF530	M0R0Y5	unreviewed	M0R0Y5_HUMAN	Zinc finger protein 530	ZNF530	Homo sapiens (Human)	28
+ZNF530	M0R1P0	unreviewed	M0R1P0_HUMAN	Zinc finger protein 530	ZNF530	Homo sapiens (Human)	566
+ZNF543	Q08ER8	reviewed	ZN543_HUMAN	Zinc finger protein 543	ZNF543	Homo sapiens (Human)	600
+ZNF550	Q7Z398	reviewed	ZN550_HUMAN	Zinc finger protein 550	ZNF550	Homo sapiens (Human)	422
+ZNF550	A0A0C4DGB4	unreviewed	A0A0C4DGB4_HUMAN	Zinc finger protein 550	ZNF550	Homo sapiens (Human)	381
+ZNF550	M0QWZ8	unreviewed	M0QWZ8_HUMAN	Zinc finger protein 550	ZNF550	Homo sapiens (Human)	339
+ZNF550	M0R337	unreviewed	M0R337_HUMAN	Zinc finger protein 550	ZNF550	Homo sapiens (Human)	125
+ZNF568	Q3ZCX4	reviewed	ZN568_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	644
+ZNF568	A0A0C4DGP9	unreviewed	A0A0C4DGP9_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	530
+ZNF568	A0A1Y8EHF7	unreviewed	A0A1Y8EHF7_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	7
+ZNF568	A0A994J5D8	unreviewed	A0A994J5D8_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	75
+ZNF568	A0A994J5R3	unreviewed	A0A994J5R3_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	124
+ZNF568	A0A994J5R8	unreviewed	A0A994J5R8_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	470
+ZNF568	A0A994J7L7	unreviewed	A0A994J7L7_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	107
+ZNF568	A0A994J7M0	unreviewed	A0A994J7M0_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	193
+ZNF568	A0A994J7Z8	unreviewed	A0A994J7Z8_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	261
+ZNF568	A2VDJ6	unreviewed	A2VDJ6_HUMAN	ZNF568 protein	ZNF568	Homo sapiens (Human)	502
+ZNF568	C9JLX5	unreviewed	C9JLX5_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	635
+ZNF568	C9JXQ5	unreviewed	C9JXQ5_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	79
+ZNF568	C9JZ58	unreviewed	C9JZ58_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	171
+ZNF568	C9K0F2	unreviewed	C9K0F2_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	503
+ZNF568	K7EKY2	unreviewed	K7EKY2_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	39
+ZNF568	K7EL97	unreviewed	K7EL97_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	25
+ZNF568	K7ELK8	unreviewed	K7ELK8_HUMAN	Zinc finger protein 568	ZNF568	Homo sapiens (Human)	58
+ZNF568	Q96AZ9	unreviewed	Q96AZ9_HUMAN	ZNF568 protein	ZNF568	Homo sapiens (Human)	47
+ZNF585A	Q6P3V2	reviewed	Z585A_HUMAN	Zinc finger protein 585A	ZNF585A	Homo sapiens (Human)	769
+ZNF585A	A0A0C4DFY4	unreviewed	A0A0C4DFY4_HUMAN	Zinc finger protein 585A	ZNF585A	Homo sapiens (Human)	714
+ZNF585A	K7ELR3	unreviewed	K7ELR3_HUMAN	Zinc finger protein 585A	ZNF585A	Homo sapiens (Human)	25
+ZNF585A	K7EN80	unreviewed	K7EN80_HUMAN	Zinc finger protein 585A	ZNF585A	Homo sapiens (Human)	113
+ZNF585A	L8EAQ8	unreviewed	L8EAQ8_HUMAN	Alternative protein ZNF585A	ZNF585A	Homo sapiens (Human)	63
+ZNF585B	Q52M93	reviewed	Z585B_HUMAN	Zinc finger protein 585B (zinc finger protein 41-like protein)	ZNF585B	Homo sapiens (Human)	769
+ZNF585B	E9PNT4	unreviewed	E9PNT4_HUMAN	Zinc finger protein 585B	ZNF585B	Homo sapiens (Human)	56
+ZNF585B	E9PQ00	unreviewed	E9PQ00_HUMAN	Zinc finger protein 585B	ZNF585B	Homo sapiens (Human)	35
+ZNF585B	F2Z3L4	unreviewed	F2Z3L4_HUMAN	Zinc finger protein 585B	ZNF585B	Homo sapiens (Human)	157
+ZNF585B	K7EL12	unreviewed	K7EL12_HUMAN	Zinc finger protein 585B	ZNF585B	Homo sapiens (Human)	137
+ZNF585B	K7EP93	unreviewed	K7EP93_HUMAN	Zinc finger protein 585B	ZNF585B	Homo sapiens (Human)	60
+ZNF585B	K7EPG8	unreviewed	K7EPG8_HUMAN	Zinc finger protein 585B	ZNF585B	Homo sapiens (Human)	17
+ZNF610	Q8N9Z0	reviewed	ZN610_HUMAN	Zinc finger protein 610	ZNF610	Homo sapiens (Human)	462
+ZNF610	M0QYM6	unreviewed	M0QYM6_HUMAN	Zinc finger protein 610	ZNF610	Homo sapiens (Human)	85
+ZNF646	O15015	reviewed	ZN646_HUMAN	Zinc finger protein 646	ZNF646 KIAA0296	Homo sapiens (Human)	1832
+ZNF646	C9J3L0	unreviewed	C9J3L0_HUMAN	Zinc finger protein 646	ZNF646	Homo sapiens (Human)	240
+ZNF646	H3BSD0	unreviewed	H3BSD0_HUMAN	Zinc finger protein 646	ZNF646	Homo sapiens (Human)	54
+ZNF678	Q5SXM1	reviewed	ZN678_HUMAN	Zinc finger protein 678	ZNF678	Homo sapiens (Human)	525
+ZNF678	B1APK8	unreviewed	B1APK8_HUMAN	Zinc finger protein 678	ZNF678	Homo sapiens (Human)	227
+ZNF678	V9GYU6	unreviewed	V9GYU6_HUMAN	Zinc finger protein 678	ZNF678	Homo sapiens (Human)	76
+ZNF680	Q8NEM1	reviewed	ZN680_HUMAN	Zinc finger protein 680	ZNF680	Homo sapiens (Human)	530
+ZNF701	Q9NV72	reviewed	ZN701_HUMAN	Zinc finger protein 701	ZNF701	Homo sapiens (Human)	531
+ZNF701	M0R085	unreviewed	M0R085_HUMAN	Zinc finger protein 701	ZNF701	Homo sapiens (Human)	212
+ZNF701	M0R327	unreviewed	M0R327_HUMAN	Zinc finger protein 701	ZNF701	Homo sapiens (Human)	145
+ZNF701	Q6NWZ7	unreviewed	Q6NWZ7_HUMAN	ZNF701 protein	ZNF701	Homo sapiens (Human)	153
+ZNF701	Q7Z2U6	unreviewed	Q7Z2U6_HUMAN	ZNF701 protein	ZNF701	Homo sapiens (Human)	151
+ZNF707	Q96C28	reviewed	ZN707_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	371
+ZNF707	A0A2R8YE36	unreviewed	A0A2R8YE36_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	296
+ZNF707	E9PHZ0	unreviewed	E9PHZ0_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	47
+ZNF707	E9PJ46	unreviewed	E9PJ46_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	55
+ZNF707	E9PKX4	unreviewed	E9PKX4_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	92
+ZNF707	E9PNV7	unreviewed	E9PNV7_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	141
+ZNF707	E9PP66	unreviewed	E9PP66_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	103
+ZNF707	E9PPS7	unreviewed	E9PPS7_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	134
+ZNF707	E9PQ20	unreviewed	E9PQ20_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	79
+ZNF707	E9PS67	unreviewed	E9PS67_HUMAN	Zinc finger protein 707	ZNF707	Homo sapiens (Human)	145
+ZNF708	P17019	reviewed	ZN708_HUMAN	Zinc finger protein 708 (Zinc finger protein 15) (Zinc finger protein 15-like 1) (Zinc finger protein KOX8)	ZNF708 KOX8 ZNF15 ZNF15L1	Homo sapiens (Human)	563
+ZNF708	M0QYN4	unreviewed	M0QYN4_HUMAN	Zinc finger protein 708	ZNF708	Homo sapiens (Human)	499
+ZNF708	M0R1G3	unreviewed	M0R1G3_HUMAN	Zinc finger protein 708	ZNF708	Homo sapiens (Human)	65
+ZNF708	M0R2V2	unreviewed	M0R2V2_HUMAN	Zinc finger protein 708	ZNF708	Homo sapiens (Human)	38
+ZNF736	B4DX44	reviewed	ZN736_HUMAN	Zinc finger protein 736	ZNF736	Homo sapiens (Human)	427
+ZNF736	A0A1D5RMN6	unreviewed	A0A1D5RMN6_HUMAN	Zinc finger protein 736	ZNF736	Homo sapiens (Human)	10
+ZNF749	O43361	reviewed	ZN749_HUMAN	Zinc finger protein 749	ZNF749	Homo sapiens (Human)	778
+ZNF749	C9J756	unreviewed	C9J756_HUMAN	Zinc finger protein 749	ZNF749	Homo sapiens (Human)	66
+ZNF77	Q15935	reviewed	ZNF77_HUMAN	Zinc finger protein 77 (ZNFpT1)	ZNF77	Homo sapiens (Human)	545
+ZNF77	A8K4L4	unreviewed	A8K4L4_HUMAN	Zinc finger protein 77 (PT1)	ZNF77 hCG_1820474	Homo sapiens (Human)	545
+ZNF778	Q96MU6	reviewed	ZN778_HUMAN	Zinc finger protein 778	ZNF778	Homo sapiens (Human)	729
+ZNF778	A0A0A0MSW5	unreviewed	A0A0A0MSW5_HUMAN	Zinc finger protein 778	ZNF778	Homo sapiens (Human)	757
+ZNF778	A0PJ55	unreviewed	A0PJ55_HUMAN	ZNF778 protein	ZNF778	Homo sapiens (Human)	260
+ZNF778	H3BSD4	unreviewed	H3BSD4_HUMAN	Zinc finger protein 778	ZNF778	Homo sapiens (Human)	47
+ZNF778	H3BUU4	unreviewed	H3BUU4_HUMAN	Zinc finger protein 778	ZNF778	Homo sapiens (Human)	81
+ZNF787	Q6DD87	reviewed	ZN787_HUMAN	Zinc finger protein 787 (TTF-I-interacting peptide 20)	ZNF787	Homo sapiens (Human)	382
+ZNF787	K7EKJ5	unreviewed	K7EKJ5_HUMAN	Zinc finger protein 787	ZNF787	Homo sapiens (Human)	126
+ZNF787	M0R0X7	unreviewed	M0R0X7_HUMAN	Zinc finger protein 787	ZNF787	Homo sapiens (Human)	39
+ZNF789	Q5FWF6	reviewed	ZN789_HUMAN	Zinc finger protein 789	ZNF789	Homo sapiens (Human)	425
+ZNF789	C9J3R7	unreviewed	C9J3R7_HUMAN	Zinc finger protein 789	ZNF789	Homo sapiens (Human)	56
+ZNF789	C9J487	unreviewed	C9J487_HUMAN	Zinc finger protein 789	ZNF789	Homo sapiens (Human)	118
+ZNF789	C9JUE3	unreviewed	C9JUE3_HUMAN	Zinc finger protein 789	ZNF789	Homo sapiens (Human)	56
+ZNF789	F8WEN0	unreviewed	F8WEN0_HUMAN	Zinc finger protein 789	ZNF789	Homo sapiens (Human)	55
+ZNF79	Q15937	reviewed	ZNF79_HUMAN	Zinc finger protein 79 (ZNFpT7)	ZNF79	Homo sapiens (Human)	498
+ZNF79	A0A087X2B0	unreviewed	A0A087X2B0_HUMAN	Zinc finger protein 79	ZNF79	Homo sapiens (Human)	364
+ZNF79	A0ABJ7H339	unreviewed	A0ABJ7H339_HUMAN	Zinc finger protein 79	ZNF79	Homo sapiens (Human)	87
+ZNF79	A0ABJ7HDM7	unreviewed	A0ABJ7HDM7_HUMAN	Zinc finger protein 79	ZNF79	Homo sapiens (Human)	119
+ZNF79	F5H032	unreviewed	F5H032_HUMAN	Zinc finger protein 79	ZNF79	Homo sapiens (Human)	474
+ZNF805	Q5CZA5	reviewed	ZN805_HUMAN	Zinc finger protein 805	ZNF805	Homo sapiens (Human)	627
+ZNF805	B9EIQ3	unreviewed	B9EIQ3_HUMAN	Zinc finger protein 805	ZNF805	Homo sapiens (Human)	377
+ZNF814	B7Z6K7	reviewed	ZN814_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	855
+ZNF814	M0QY74	unreviewed	M0QY74_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	62
+ZNF814	M0QYA7	unreviewed	M0QYA7_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	39
+ZNF814	M0QYL6	unreviewed	M0QYL6_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	68
+ZNF814	M0QZ45	unreviewed	M0QZ45_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	113
+ZNF814	M0QZ64	unreviewed	M0QZ64_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	84
+ZNF814	M0QZS8	unreviewed	M0QZS8_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	94
+ZNF814	M0R066	unreviewed	M0R066_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	79
+ZNF814	M0R0R0	unreviewed	M0R0R0_HUMAN	Zinc finger protein 814	ZNF814	Homo sapiens (Human)	91
+ZNF83	P51522	reviewed	ZNF83_HUMAN	Zinc finger protein 83 (Zinc finger protein 816B) (Zinc finger protein HPF1)	ZNF83 ZNF816B	Homo sapiens (Human)	516
+ZNF83	A0A994J813	unreviewed	A0A994J813_HUMAN	Zinc finger protein 83	ZNF83	Homo sapiens (Human)	105
+ZNF83	H9XFB5	unreviewed	H9XFB5_HUMAN	Zinc finger protein 83 isoform a	ZNF83	Homo sapiens (Human)	267
+ZNF83	L0R8M2	unreviewed	L0R8M2_HUMAN	Alternative protein ZNF83 (Zinc finger protein 83)	ZNF83	Homo sapiens (Human)	105
+ZNF83	M0R3A5	unreviewed	M0R3A5_HUMAN	Zinc finger protein 83	ZNF83	Homo sapiens (Human)	92
+ZNF83	Q6P579	unreviewed	Q6P579_HUMAN	ZNF83 protein	ZNF83	Homo sapiens (Human)	335
+ZNF831	Q5JPB2	reviewed	ZN831_HUMAN	Zinc finger protein 831	ZNF831 C20orf174	Homo sapiens (Human)	1677
+ZNF850	A8MQ14	reviewed	ZN850_HUMAN	Zinc finger protein 850	ZNF850	Homo sapiens (Human)	1090
+ZNF850	A0A087X0M6	unreviewed	A0A087X0M6_HUMAN	Zinc finger protein 850	ZNF850	Homo sapiens (Human)	1058
+ZNF850	K7EJI8	unreviewed	K7EJI8_HUMAN	Zinc finger protein 850	ZNF850	Homo sapiens (Human)	84
+ZNF875	P10072	reviewed	ZN875_HUMAN	Zinc finger protein 875 (Krueppel-related zinc finger protein 1) (Protein HKR1)	ZNF875 HKR1	Homo sapiens (Human)	659
+ZNF875	A0A1B0GXI2	unreviewed	A0A1B0GXI2_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	21
+ZNF875	A0A494C010	unreviewed	A0A494C010_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	117
+ZNF875	F5H6A5	unreviewed	F5H6A5_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	386
+ZNF875	K7EJS1	unreviewed	K7EJS1_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	22
+ZNF875	K7EL05	unreviewed	K7EL05_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	91
+ZNF875	K7EL22	unreviewed	K7EL22_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	107
+ZNF875	K7EL36	unreviewed	K7EL36_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	91
+ZNF875	K7EM51	unreviewed	K7EM51_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	77
+ZNF875	K7EME6	unreviewed	K7EME6_HUMAN	GLI-Kruppel family member HKR1, isoform CRA_d (Zinc finger protein 875)	ZNF875 HKR1 hCG_42404	Homo sapiens (Human)	171
+ZNF875	K7EMG8	unreviewed	K7EMG8_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	69
+ZNF875	K7EMJ9	unreviewed	K7EMJ9_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	41
+ZNF875	K7ENA5	unreviewed	K7ENA5_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	46
+ZNF875	K7EPW3	unreviewed	K7EPW3_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	641
+ZNF875	K7EQG8	unreviewed	K7EQG8_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	54
+ZNF875	K7ERA5	unreviewed	K7ERA5_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	127
+ZNF875	K7ES32	unreviewed	K7ES32_HUMAN	Zinc finger protein 875	ZNF875	Homo sapiens (Human)	37
+ZNF875	Q7Z6E1	unreviewed	Q7Z6E1_HUMAN	HKR1 protein (Zinc finger protein 875)	ZNF875	Homo sapiens (Human)	598
+ZNF880	Q6PDB4	reviewed	ZN880_HUMAN	Zinc finger protein 880	ZNF880	Homo sapiens (Human)	577
+ZNF880	F5H026	unreviewed	F5H026_HUMAN	Zinc finger protein 880	ZNF880	Homo sapiens (Human)	125
+ZNF880	M0R0M5	unreviewed	M0R0M5_HUMAN	Zinc finger protein 880	ZNF880	Homo sapiens (Human)	117
+ZNF888	P0CJ79	reviewed	ZN888_HUMAN	Zinc finger protein 888	ZNF888	Homo sapiens (Human)	718
+ZSCAN2	Q7Z7L9	reviewed	ZSCA2_HUMAN	Zinc finger and SCAN domain-containing protein 2 (Zinc finger protein 29 homolog) (Zfp-29) (Zinc finger protein 854)	ZSCAN2 ZFP29 ZNF854	Homo sapiens (Human)	614
+ZSCAN2	A0A0C4DFQ3	unreviewed	A0A0C4DFQ3_HUMAN	Zinc finger and SCAN domain-containing protein 2 (Zinc finger protein 29 homolog)	ZSCAN2	Homo sapiens (Human)	613
+ZSCAN2	F5GY18	unreviewed	F5GY18_HUMAN	Zinc finger and SCAN domain containing 2	ZSCAN2	Homo sapiens (Human)	200
+ZSCAN2	F5GZ04	unreviewed	F5GZ04_HUMAN	Zinc finger and SCAN domain containing 2	ZSCAN2	Homo sapiens (Human)	210
+ZSCAN2	F5H1K4	unreviewed	F5H1K4_HUMAN	Zinc finger and SCAN domain containing 2	ZSCAN2	Homo sapiens (Human)	32
+ZSCAN2	F5H2D8	unreviewed	F5H2D8_HUMAN	Zinc finger and SCAN domain containing 2	ZSCAN2	Homo sapiens (Human)	27
+ZSCAN2	F5H3F3	unreviewed	F5H3F3_HUMAN	Zinc finger and SCAN domain containing 2	ZSCAN2	Homo sapiens (Human)	238
+ZSCAN2	F5H4P1	unreviewed	F5H4P1_HUMAN	Zinc finger and SCAN domain containing 2	ZSCAN2	Homo sapiens (Human)	107
+ZSCAN2	F5H789	unreviewed	F5H789_HUMAN	Zinc finger and SCAN domain containing 2	ZSCAN2	Homo sapiens (Human)	53
+ZSCAN2	F8W6Y9	unreviewed	F8W6Y9_HUMAN	Zinc finger and SCAN domain containing 2	ZSCAN2	Homo sapiens (Human)	464

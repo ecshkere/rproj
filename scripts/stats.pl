@@ -1,10 +1,17 @@
 #!/usr/bin/perl
 ($sample, $bam_file) = @ARGV;
+
+if ($sample =~ /RNASEQ_(s\w+)/) { $sample = $1; }
+elsif ($sample =~ /CHIPSEQ_(s\w+)/) { $sample = $1; }
+elsif ($sample eq "Damarov") { $sample = "sDm"; }
+elsif ($sample eq "E.Viacheslavovna") { $sample = "sAn"; }
+elsif ($sample eq "N.Petrovna") { $sample = "sBn"; }
+
 open(OUT,">$sample.stat");
 print OUT join("\t", "id_sample", "chr", "pos", "DP", "ref", "QS_ref", "alt1", "QS_alt1", "alt2", "QS_alt2"), "\n";
 $genome = "/media/leon/Polina/Genomes/hg38.chromFa/hg38_FOR_HISAT.fa";
 
-open(IN, "bcftools mpileup -f $genome -d 10000 -q 30 -Q 20 $bam_file |");
+open(IN, "bcftools mpileup -f $genome -d 10000 -q 30 -Q 20 $bam_file --ff QCFAIL,SECONDARY |");
 
 while ($IN=<IN>) {
 	$IN=~/DP=(\d+)/;

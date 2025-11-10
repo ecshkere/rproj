@@ -1,7 +1,7 @@
 library(tidyverse)
 
 read_chipseq <- function(patient) {
-  df <- read_tsv(paste0("data/", patient, ".stat")) %>%
+  df <- read_tsv(paste0(stats_dir, patient, ".stat")) %>%
     rename(alt = alt1, patient = id_sample) %>% 
     filter(str_length(ref) == 1, str_length(alt) == 1,
            chr %in% as.character(seq(1, 22))) %>%
@@ -42,30 +42,24 @@ read_rnaseq <- function(patient, min_DP = 100) {
 }
 
 prepare_rna <- function(ase_dfs, chipseq_df, p = 0.1) {
-  ase <- bind_rows(ase_dfs) %>% 
-  filter(symbol %in% chipseq_df$symbol) %>%
-  group_by(symbol) %>% filter(n_distinct(patient) > 1) %>% ungroup() %>% 
-  mutate(ref_major = DP_ref_0R > DP_alt_0R,
-         major = ifelse(ref_major, ref, alt),
-         minor = ifelse(ref_major, alt, ref),
-         DP_maj_0R = ifelse(ref_major, DP_ref_0R, DP_alt_0R),
-         DP_min_0R = ifelse(ref_major, DP_alt_0R, DP_ref_0R),
-         DP_maj_1R = ifelse(ref_major, DP_ref_1R, DP_alt_1R),
-         DP_min_1R = ifelse(ref_major, DP_alt_1R, DP_ref_1R)) %>% 
-  group_by(symbol, patient) %>%
-  summarize(
-    DP_maj_gene_0 = round(mean(DP_maj_0R)),
-    DP_min_gene_0 = round(mean(DP_min_0R)),
-    DP_maj_gene_1 = round(mean(DP_maj_1R)),
-    DP_min_gene_1 = round(mean(DP_min_1R)),
-    dMAF = abs(DP_maj_gene_1 / (DP_maj_gene_1 + DP_min_gene_1) - DP_maj_gene_0 / (DP_maj_gene_0 + DP_min_gene_0)), 
-    OR = (DP_maj_gene_1 / DP_min_gene_1) / (DP_maj_gene_0 / DP_min_gene_0),
-    .groups = "drop") # %>%
-  # rowwise() %>% 
-  # mutate(p01 = chisq.test(matrix(c(DP_maj_gene_0, DP_min_gene_0, DP_maj_gene_1, DP_min_gene_1), nrow = 2, byrow = TRUE))$p.value) %>%
-  # ungroup() %>% drop_na() %>% 
-  # mutate(padj = p.adjust(p01, method = "BH")) %>% 
-  # mutate(diffASE = padj < p)
+  ase <- ase_dfs %>% 
+    filter(symbol %in% chipseq_df$symbol) %>%
+    filter(n_distinct(patient) > 1, .by = symbol) %>% 
+    mutate(ref_major = DP_ref_0R > DP_alt_0R,
+           major = ifelse(ref_major, ref, alt),
+           minor = ifelse(ref_major, alt, ref),
+           DP_maj_0R = ifelse(ref_major, DP_ref_0R, DP_alt_0R),
+           DP_min_0R = ifelse(ref_major, DP_alt_0R, DP_ref_0R),
+           DP_maj_1R = ifelse(ref_major, DP_ref_1R, DP_alt_1R),
+           DP_min_1R = ifelse(ref_major, DP_alt_1R, DP_ref_1R)) %>% 
+    summarize(
+      DP_maj_gene_0 = round(mean(DP_maj_0R)),
+      DP_min_gene_0 = round(mean(DP_min_0R)),
+      DP_maj_gene_1 = round(mean(DP_maj_1R)),
+      DP_min_gene_1 = round(mean(DP_min_1R)),
+      dMAF = abs(DP_maj_gene_1 / (DP_maj_gene_1 + DP_min_gene_1) - DP_maj_gene_0 / (DP_maj_gene_0 + DP_min_gene_0)), 
+      OR = (DP_maj_gene_1 / DP_min_gene_1) / (DP_maj_gene_0 / DP_min_gene_0),
+      .by = c(symbol, patient))
   return(ase)
 }
 
@@ -87,8 +81,8 @@ prepare_for_glm <- function(ase, chipseq_df) {
   df_pairs <- chipseq_df %>%
     distinct(symbol, patients)
   
-  valid_symbols <- ase %>% 
-    group_by(symbol) %>% filter(n_distinct(patient) > 1) %>% ungroup() %>% pull(symbol)
+  valid_symbols <- ase %>%
+    filter(n_distinct(patient) > 1, .by = symbol) %>% pull(symbol)
   
   ase_sub <- ase %>% filter(symbol %in% valid_symbols)
   
@@ -101,7 +95,8 @@ prepare_for_glm <- function(ase, chipseq_df) {
            log2ROR = abs(abs(log2(OR_p1)) - abs(log2(OR_p2))),
            ddMAF = abs(dMAF_p1 - dMAF_p2))
   
-  res <- pairs %>% inner_join(df_pairs, by = c("symbol", "patients"), relationship = "many-to-many") %>%
+  res <- pairs %>%
+    inner_join(df_pairs, by = c("symbol", "patients"), relationship = "many-to-many") %>%
     distinct() %>% arrange(desc(ddMAF))
   return(res)
 }
