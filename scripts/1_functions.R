@@ -7,7 +7,8 @@ exns <- exons(hg38, columns = c("exon_id", "gene_id"))
 gens <- genes(hg38)
 
 # returns the input dataframe with "gene_id" and "symbol" columns added
-assign_genes <- function(df, chr_col, start_col, end_col = start_col, promoters = FALSE, exons_only = FALSE) {
+assign_genes <- function(df, chr_col, start_col, end_col = start_col,
+                         promoters = FALSE, exons_only = FALSE, omit_na = TRUE) {
   seqnames_col <- gsub("^([0-9XY])", "chr\\1", df[[chr_col]])
   ranges <- GRanges(seqnames = seqnames_col,
                     ranges = IRanges(start = df[[start_col]],
@@ -32,9 +33,9 @@ assign_genes <- function(df, chr_col, start_col, end_col = start_col, promoters 
                            keys = entrezid,
                            column = "SYMBOL",
                            keytype = "ENTREZID")) %>%
-    drop_na(symbol, entrezid) %>% 
     unnest_longer(symbol)
   
+  if (omit_na) { df <- drop_na(df, symbol, entrezid) }
   if ("symbol_id" %in% colnames(df)) { df <- df %>% select(-symbol_id) } # ?
   return(df)
 }
@@ -42,7 +43,7 @@ assign_genes <- function(df, chr_col, start_col, end_col = start_col, promoters 
 # returns the input dataframe with "rsid" column added  
 # omits rows without rsid 
 # todo gsub "chr" with nothing
-add_rsids <- function(df, chr_col, pos_col, ref_col) {
+add_rsids <- function(df, chr_col, pos_col, ref_col, omit_na = TRUE) {
   ranges <- GRanges(seqnames = as.character(df[[chr_col]]),
                     ranges = IRanges(df[[pos_col]], width = 1),
                     ref = df[[ref_col]])
@@ -51,8 +52,11 @@ add_rsids <- function(df, chr_col, pos_col, ref_col) {
   snp_df <- as.data.frame(snps)[, c("seqnames", "pos")] %>% 
     mutate(rsid = mcols(snps)$RefSNP_id) %>% drop_na()
   
-  df <- left_join(df, snp_df, by = set_names(c("seqnames", "pos"), c(chr_col, pos_col))) %>% 
-    drop_na(rsid)
+  df <- left_join(df, snp_df,
+                  by = set_names(c("seqnames", "pos"), c(chr_col, pos_col)),
+                  relationship = "many-to-many")
+  
+  if (omit_na) { df <- drop_na(df, rsid) }
   return(df)
 }
 

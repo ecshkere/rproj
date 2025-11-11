@@ -15,7 +15,7 @@ read_missense <- function(patient) {
 
 join_missense <- function(patients) {
   lapply(patients, read_missense) %>% 
-    reduce(full_join, by = c("chr", "pos", "ref", "alt")) %>% 
+    purrr::reduce(full_join, by = c("chr", "pos", "ref", "alt")) %>% 
     select(-contains("patient")) %>% 
     set_names(c("chr", "pos", "ref", "alt", patients)) %>%
     filter(rowSums(is.na(.)) <= length(patients) - 2)

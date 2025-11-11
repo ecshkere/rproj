@@ -1,7 +1,7 @@
 library(tidyverse)
 
 read_chipseq <- function(patient) {
-  df <- read_tsv(paste0("data/", patient, ".stat")) %>%
+  df <- read_tsv(paste0(stats_dir, patient, ".stat")) %>%
     rename(alt = alt1, patient = id_sample) %>% 
     filter(str_length(ref) == 1, str_length(alt) == 1,
            chr %in% as.character(seq(1, 22))) %>%
@@ -42,21 +42,22 @@ read_rnaseq <- function(patient, min_DP = 100) {
 }
 
 prepare_rna <- function(ase_dfs, chipseq_df) {
-  ase <- bind_rows(ase_dfs) %>% 
+  ase <- ase_dfs %>% 
     filter(symbol %in% chipseq_df$symbol) %>%
-    group_by(symbol) %>% filter(n_distinct(patient) > 1) %>% ungroup() %>% 
-    mutate(snp = paste(chr, pos, sep = "_"),
-           ref_major = DP_ref_0R > DP_alt_0R,
-           major = ifelse(ref_major, ref, alt),
-           minor = ifelse(ref_major, alt, ref),
-           DP_maj_0R = ifelse(ref_major, DP_ref_0R, DP_alt_0R),
-           DP_min_0R = ifelse(ref_major, DP_alt_0R, DP_ref_0R),
-           DP_maj_1R = ifelse(ref_major, DP_ref_1R, DP_alt_1R),
-           DP_min_1R = ifelse(ref_major, DP_alt_1R, DP_ref_1R)
-    ) %>% group_by(symbol, patient) %>%
+    filter(n_distinct(patient) > 1, .by = symbol) %>% 
     mutate(
+      snp = paste(chr, pos, sep = "_"),
+      ref_major = DP_ref_0R > DP_alt_0R,
+      major = ifelse(ref_major, ref, alt),
+      minor = ifelse(ref_major, alt, ref),
+      DP_maj_0R = ifelse(ref_major, DP_ref_0R, DP_alt_0R),
+      DP_min_0R = ifelse(ref_major, DP_alt_0R, DP_ref_0R),
+      DP_maj_1R = ifelse(ref_major, DP_ref_1R, DP_alt_1R),
+      DP_min_1R = ifelse(ref_major, DP_alt_1R, DP_ref_1R)
+    ) %>% mutate(
       n_snps = n_distinct(snp),
       snps = list(sort(unique(snp))),
+      .by = c(symbol, patient)
     ) %>% select(-c(entrezid, DP_0R, DP_1R, log2FC_1vs0, ref_frac_diff))
   return(ase)
 }
@@ -77,13 +78,13 @@ prepare_cs <- function(chipseq_dfs, ase) {
 
 #### at least one common snp (commented out)
 ## half the snps are common
-prepare_for_py <- function(ase, chipseq_df) {
+prepare_for_glm <- function(ase, chipseq_df) {
   df_pairs <- chipseq_df %>%
     distinct(symbol, patients)
 
-  valid_symbols <- ase %>% group_by(symbol) %>%
-    filter(n_distinct(patient) > 1) %>% pull(symbol)
-
+  valid_symbols <- ase %>% 
+    filter(n_distinct(patient) > 1, .by = symbol) %>% pull(symbol)
+  
   ase_sub <- ase %>% filter(symbol %in% valid_symbols)
 
   res <- ase_sub %>%
@@ -92,20 +93,18 @@ prepare_for_py <- function(ase, chipseq_df) {
     filter(p1 < p2) %>%
     mutate(patients = paste(p1, p2, sep = "_")) %>%
     rowwise %>%
-    mutate(
-      n_common = length(intersect(snps_p1, snps_p2)),
-      frac_common = round(n_common / length(union(snps_p1, snps_p2)), 2)
-    ) %>% ungroup() %>%
+    mutate(n_common = length(intersect(snps_p1, snps_p2)),
+           frac_common = round(n_common / length(union(snps_p1, snps_p2)), 2)) %>%
+    ungroup() %>%
     inner_join(df_pairs) %>% distinct() %>%
-    group_by(symbol, patients) %>%
     filter(case_when(
       # n_common > 0 ~ snp_p1 == snp_p2,
       # n_common == 0 ~ snp_p1 != snp_p2)) # drop unique snps for genes where at least one common snp is present
       
       frac_common >= 0.5 ~ snp_p1 == snp_p2, # drop unique snps for genes where at least half the snps are common 
-      frac_common < 0.5 ~ ((snp_p1 == snp_p2) | (snp_p1 != snp_p2))) # otherwise keep them all but without being able to compare the direction of asymmetry shift later
+      frac_common < 0.5 ~ ((snp_p1 == snp_p2) | (snp_p1 != snp_p2))), # otherwise keep them all but without being able to compare the direction of asymmetry shift later
+      .by = c(symbol, patients)
     ) %>% 
-    ungroup() %>%
     mutate(same_major = case_when( # swap DP_maj and DP_min for common snps if major_p2 differs from major_p1
       # snp_p1 == snp_p2 & major_p1 == major_p2 ~ "TRUE",
       # snp_p1 == snp_p2 & major_p1 == minor_p2 ~ "FALSE",
@@ -113,7 +112,7 @@ prepare_for_py <- function(ase, chipseq_df) {
       
       frac_common >= 0.5 & snp_p1 == snp_p2 & major_p1 == major_p2 ~ "T",
       frac_common >= 0.5 & snp_p1 == snp_p2 & major_p1 == minor_p2 ~ "F",
-      frac_common < 0.5 ~ "NA") # gonna be calculating mean coverage for each patient individually
+      frac_common < 0.5 ~ "NA") # will be calculating mean coverage for each patient individually
     ) %>%
     mutate(
       major_p2_tmp = ifelse(same_major == "F", minor_p2, major_p2),
@@ -125,7 +124,6 @@ prepare_for_py <- function(ase, chipseq_df) {
     ) %>%
     mutate(major_p2 = major_p2_tmp, minor_p2 = minor_p2_tmp, DP_maj_0R_p2 = DP_maj_0R_p2_tmp, DP_min_0R_p2 = DP_min_0R_p2_tmp, DP_maj_1R_p2 = DP_maj_1R_p2_tmp, DP_min_1R_p2 = DP_min_1R_p2_tmp) %>%
     select(-contains("_tmp")) %>%
-    group_by(symbol, patients) %>%
     mutate(
       DP_maj_gene_0_p1 = round(mean(DP_maj_0R_p1)),
       DP_min_gene_0_p1 = round(mean(DP_min_0R_p1)),
@@ -141,7 +139,8 @@ prepare_for_py <- function(ase, chipseq_df) {
         # n_common == 0,
         frac_common < 0.5,
         abs(abs(log2(OR_p1)) - abs(log2(OR_p2))),
-        abs(log2(OR_p1) - log2(OR_p2))) # ignore direction if snps were different
+        abs(log2(OR_p1) - log2(OR_p2))), # ignore direction if snps were different
+        .by = c(symbol, patients)
     ) %>% select(symbol, patients, n_common, frac_common, n_snps_p1, n_snps_p2, p1, OR_p1, OR_p2, log2ROR, DP_maj_gene_0_p1, DP_min_gene_0_p1, DP_maj_gene_1_p1, DP_min_gene_1_p1, p2, DP_maj_gene_0_p2, DP_min_gene_0_p2, DP_maj_gene_1_p2, DP_min_gene_1_p2) %>%
     distinct() %>% arrange(frac_common)
 
@@ -165,9 +164,7 @@ run_glm <- function(df) {
     )
     dat <- dat %>%
       mutate(total = maj + min) %>%
-      pivot_longer(cols = c(maj, min),
-                   names_to = "allele_type",
-                   values_to = "count") %>%
+      pivot_longer(cols = c(maj, min), names_to = "allele_type", values_to = "count") %>%
       mutate(is_maj = ifelse(allele_type == "maj", 1, 0))
     
     fit <- stats::glm(is_maj ~ condition * patient,

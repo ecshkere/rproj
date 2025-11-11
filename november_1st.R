@@ -36,26 +36,25 @@ if (!exists("IN_VIVO")) {
   coldata_path <- "counts/in_vivo_coldata.tsv"
 }
 
-## in vitro chip-seq snps
-joined_df <- lapply(patients, read_chipseq) %>% bind_rows() %>%
+stats_dir <- "data/unfiltered_stats/"
+
+# in vitro chip-seq 
+joined_df <- map_dfr(patients, read_chipseq) %>%
   mutate(variant = paste(chr, pos, ref, alt, sep = '_')) %>%
-  group_by(variant) %>% filter(n_distinct(patient) > 1) %>% ungroup() # filtering snps common for 2+ patients
+  filter(n_distinct(patient) > 1, .by = variant) # filtering snps common for 2+ patients
 
 # filtering snps in promoters
 joined_df <- assign_genes(joined_df, "chr", "pos", promoters = TRUE)
 joined_df <- add_rsids(joined_df, "chr", "pos", "ref")
 
-## in vitro RNA-seq
-stats_dir <- "data/"
-ase_dfs <- lapply(patients, function(x) {
-  read_rnaseq(x, min_DP = 50)
-})
-
+# in vitro RNA-seq
+ase_dfs <- map_dfr(patients, read_rnaseq, min_DP = 50)
 ase <- prepare_rna(ase_dfs, joined_df)
 chipseq_df <- prepare_cs(joined_df, ase)
-input_for_glm <- prepare_for_py(ase, chipseq_df)
+ddmaf_df <- prepare_for_glm(ase, chipseq_df)
 
-subset_for_glm <- input_for_glm %>% select(symbol, patients, contains("DP"), frac_common) %>% 
+subset_for_glm <- ddmaf_df %>%
+  select(symbol, patients, contains("DP"), frac_common) %>% 
   drop_na() # откуда
 
 res_df1 <- run_glm(subset_for_glm)
@@ -84,10 +83,10 @@ ddmaf_df_filt <- merged %>%
   inner_join(chipseq_df %>% select(symbol, patients, rsid)) %>% 
   filter(padj < 0.1)
 
-length(unique(ddmaf_df_filt$symbol)) # 116
+length(unique(ddmaf_df_filt$symbol)) # 118
 
 snps_for_mtfbrkr <- unique(ddmaf_df_filt$rsid)
-length(snps_for_mtfbrkr) # 240
+length(snps_for_mtfbrkr) # 245
 
 #### motifbreakR 
 mtfbrkr_dir <- "motifbreakr"
@@ -99,7 +98,7 @@ rsids_to_process <- setdiff(snps_for_mtfbrkr, rsids_in_folder)
 ## Rscript scripts/motifbreakr.R snps_for_mtfbrkr_to_add.txt motifbreakr/ 30 
 
 if (length(rsids_to_process)) {
-  run_motifbreakr(rsids_to_process, mtfbrkr_dir, batch_size = 10) 
+  run_motifbreakr(rsids_to_process, mtfbrkr_dir, batch_size = 20) 
 }
 result_files <- list.files(mtfbrkr_dir, pattern = ".*\\.rds$") 
 rsids_in_folder <- gsub(".rds", "", result_files)
@@ -124,8 +123,8 @@ snpgenedf <- hcmc %>% mcols() %>% as.data.frame() %>%
   mutate(tf = recode(tf, !!!tf_to_gene))
 
 tfs <- unique(snpgenedf$tf)
-length(tfs) # 640
-length(unique(snpgenedf$SNP_id)) # 234
+length(tfs) # 644
+length(unique(snpgenedf$SNP_id)) # 239
 
 counts <- read.table(counts_path, header = TRUE, sep = "\t")
 coldata <- read.table(coldata_path, header = TRUE, sep = "\t", stringsAsFactors = TRUE)
@@ -135,8 +134,7 @@ comparisons_df <- ddmaf_df_filt %>% select(symbol, patients, rsid) %>% # gene wi
 
 deseq_df <- find_tf_degs(counts, coldata, tfs, comparisons_df)
 all_degs <- sort(unique(deseq_df$symbol))
-
-length(all_degs) # 102
+length(all_degs) # 105
 
 check <- readLines("results/2025.10.28.in_vitro_degs.dp100_padj01_logROR01.txt")
 length(intersect(check, all_degs))
@@ -145,16 +143,14 @@ setdiff(all_degs, check)
 
 result_missenses <- find_missense_tfs(patients, tfs, comparisons_df)
 homo_missenses <- result_missenses %>%
-  filter(substr(allele1, 1, 1) == substr(allele1, 2, 2) & substr(allele2, 1, 1) == substr(allele2, 2, 2)) %>% 
-  pull(tf) %>% unique() %>% sort()
+  filter(qual == "homo") %>% pull(tf) %>% unique() %>% sort()
 
-hetero_missenses <- result_missenses %>%
-  filter(substr(allele1, 1, 1) != substr(allele1, 2, 2) | substr(allele2, 1, 1) != substr(allele2, 2, 2)) %>% 
-  pull(tf) %>% unique() %>% sort()
+hetero_missenses <- result_missenses_vtr %>%
+  filter(qual == "hetero") %>% pull(tf) %>% unique() %>% sort()
 
 missense_tfs <- sort(unique(result_missenses$tf))
-length(missense_tfs)                      
-length(intersect(missense_tfs, all_degs))
+length(missense_tfs) # 81
+length(intersect(missense_tfs, all_degs)) # 12
 
 # writeLines(all_degs, "results/2025.10.31.in_vitro_degs.dp50_padj01_half_common_snps.txt")
 # writeLines(missense_tfs, "results/2025.10.31.in_vitro_missenses.dp50_padj01_half_common_snps.txt")
@@ -170,9 +166,10 @@ if (!exists("IN_VIVO")) {
 
 chipseq_subset <- chipseq_df %>% filter(rsid %in% causal_snps$SNP_id)
 ase_subset <- ase %>% filter(symbol %in% chipseq_subset$symbol)
-input_for_glm_ss <- prepare_for_py(ase_subset, chipseq_subset)
+ddmaf_df_ss <- prepare_for_glm(ase_subset, chipseq_subset)
 
-subset_for_glm_ss <- input_for_glm_ss %>% select(symbol, patients, contains("DP"), frac_common) %>% 
+subset_for_glm_ss <- ddmaf_df_ss %>%
+  select(symbol, patients, contains("DP"), frac_common) %>% 
   drop_na()
 
 res_df1_ss <- run_glm(subset_for_glm_ss)
@@ -201,24 +198,25 @@ ddmaf_df_filt_ss <- merged_ss %>%
   filter(padj < 0.1) %>% 
   inner_join(causal_snps, by = c("rsid" = "SNP_id"), relationship = "many-to-many") %>% distinct()
 
-length(unique(ddmaf_df_filt_ss$symbol)) # 40
+length(unique(ddmaf_df_filt_ss$symbol)) # 43
 
 tfs_to_check <- unique(ddmaf_df_filt_ss$tf)
 comparisons_ss <- comparisons_df %>% filter(tf %in% tfs_to_check)
 deseq_ss <- find_tf_degs(counts, coldata, tfs_to_check, comparisons_ss)
 degs_ss <- sort(unique(deseq_ss$symbol))
 degs_conf <- intersect(degs_ss, degs_in_vitro)
-length(degs_conf) # 50
+length(degs_conf) # 53
 
-missense_ss_df <- find_missense_tfs(patients, tfs_to_check, comparisons_ss)
-missense_ss <- sort(unique(missense_ss_df$tf)) # 63
-missense_conf <- intersect(missense_ss, missenses_in_vitro)
-length(missense_conf) # 45
+missense_ss_df <- find_missense_tfs(patients, tfs_to_check, comparisons_ss) %>% 
+  filter(tf %in% missenses_in_vitro)
+missense_conf <- sort(unique(missense_ss_df$tf))
+length(missense_conf) # 47
 
 missense_conf_homo <- missense_ss_df %>%
-  filter(substr(allele1, 1, 1) == substr(allele1, 2, 2) & substr(allele2, 1, 1) == substr(allele2, 2, 2)) %>% 
-  pull(tf) %>% unique() %>% sort() %>%
-  intersect(missense_conf)
+  filter(qual == "homo") %>% pull(tf) %>% unique() %>% sort()
+
+missense_conf_hetero <- missense_ss_df %>%
+  filter(qual == "hetero") %>% pull(tf) %>% unique() %>% sort()
 
 # writeLines(degs_conf, "results/2025.10.31.degs_confirmed_in_vivo.dp50_padj01_half_common_snps.txt")
 # writeLines(missense_conf, "results/2025.10.31.missenses_confirmed_in_vivo.dp50_padj01_half_common_snps.txt")
